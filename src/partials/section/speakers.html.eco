@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['speakers'] %></h2>
-
+<p style="margin-bottom: 0">Em breve</p>
 <ul class="speakers-list">
 <% for speaker in @schedule: %>
   <% if speaker.presentation: %>

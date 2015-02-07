@@ -32,7 +32,12 @@ p {
   position:relative;
   top:-1px;
 }
-
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
@@ -52,13 +57,13 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
+  padding: 100px 0 60px;
   text-align:center;
 }
 .logo-name {
-  margin-bottom: 0;
-  font-size: 10em;
-  letter-spacing: -.04em;
+  margin-bottom: 10px;
+  font-size: 8em;
+  line-height: 140%;
 }
 .tagline {
   margin-bottom:50px;
@@ -84,6 +89,23 @@ nav {
 }
 .call-action-area .call-action-link:hover, .call-action-area .call-action-link:focus, .btn:hover, .btn:focus {top:0;}
 
+#social-midias{
+  margin-top: 30px;
+  li{
+    display: inline-block;
+  }
+  a{
+    display: block;
+    height: 48px;
+    text-indent: -9999px;
+    width: 48px;
+    background: url(../img/social.png) no-repeat 0 0;
+    outline: none;
+  }
+  a.twitter{
+    background-position: 0 -116px;
+  }
+}
 /* =============================================================================
    ABOUT
    ========================================================================== */
@@ -224,8 +246,12 @@ nav {
 }
 
 @media only screen and (min-width:320px) and (max-width : 800px) {
-
+  .logo-image{
+    margin-bottom: 20px;
+  }
+  
   /* schedule */
+  .logo-name{ font-size: 4em; line-height: 100%; }
   .schedule-tbl {padding:1px;}
   .schedule-tbl td, .schedule-tbl th {padding:10px;}
   .schedule-tbl th {
@@ -273,7 +299,7 @@ nav {
   /* nav */
   nav {display: none;}
   .header {padding:20px 0;}
-  .logo-name {font-size: 4em;}
+  .logo-name {font-size: 4em; line-height: 170%; }
   .tagline {
     margin-bottom:15px;
     font-size: 1.4em;
@@ -319,6 +345,7 @@ nav {
   .logo-name {
     font-size: 4em;
     margin-bottom:.4em;
+    line-height: 105%;
   }
   .schedule-tbl .schedule-description {display: none;}
   .schedule-tbl .schedule-slot {width: auto;}
@@ -329,5 +356,11 @@ nav {
     width: 115px;
     height:115px;
     line-height: 115px;
+  }
+  .tagline{
+    line-height: 130%;
+  }
+  .call-action-area .price{
+    line-height: 110%;
   }
 }

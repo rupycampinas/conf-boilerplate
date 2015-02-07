@@ -2,7 +2,7 @@
 <html itemscope itemtype="http://schema.org/Event">
 <head>
 
-  <title itemprop="name"><%= @conf.name %></title>
+  <title itemprop="name"><%= @conf.name %> - <%= @conf.description %></title>
 
   <meta charset="utf-8">
   <meta name="author" content="<%= @conf.name %>">
@@ -11,16 +11,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <!-- FACEBOOK -->
-  <meta property="fb:app_id" content="372862979453673">
+  <!-- <meta property="fb:app_id" content="372862979453673"> -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="<%= @site.url %>">
   <meta property="og:title" content="<%= @conf.name %>">
   <meta property="og:description" content="<%= @conf.description %>">
-  <meta property="og:image" content="<%= @getUrl() %>/<%= @getTheme() %>/img/badge.jpg">
+  <meta property="og:image" content="<%= @getUrl() %>/<%= @getTheme() %>/img/logo.png">
   <!-- / FACEBOOK -->
 
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="<%= @getTheme() %>/img/apple-touch-icon.png">
 
   <!-- STYLES -->
   <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
@@ -40,7 +41,7 @@
         <%- @content %>
         <!-- FOOTER -->
         <footer class="footer">
-          <p>Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> :)</p>
+          <p>Made with ♥ by <a target="_blank" href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> :)</p>
         </footer>
         <!-- / FOOTER -->
       </div>
