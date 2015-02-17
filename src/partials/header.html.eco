@@ -1,5 +1,5 @@
 <% if @callForPapers: %>
-  <a href="<%= @callForPapers.repository %>" class="github-link">
+  <a href="<%= @callForPapers.url %>" target="_blank" class="github-link">
     <img src="themes/yellow-swan/img/call_for_papers.png" alt="Call For Papers">
   </a>
 <% end %>

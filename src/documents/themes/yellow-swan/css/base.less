@@ -152,6 +152,16 @@ nav {
 .schedule-tbl table {
   border-collapse: collapse;
   font-size:1em;
+
+  li:not(:first-child){
+    margin-top: 30px;
+  }
+
+  p{
+    font-size: 1em;
+    margin: 0;
+    line-height: 135%;
+  }
 }
 .schedule-tbl td, .schedule-tbl th {
   position:relative;
@@ -339,6 +349,10 @@ nav {
     padding: 0;
   }
   .speakers-bio {display: none;}
+
+  .schedule-description{
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 321px) {

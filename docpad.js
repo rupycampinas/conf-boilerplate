@@ -39,9 +39,9 @@ module.exports = {
     // },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    // callForPapers: {
-    //     url: "javascript:void(0)"
-    // },
+    callForPapers: {
+        url: "https://docs.google.com/forms/d/1aD2J4CzWbCcoK45fk9kYGCNd8paKt-3nAMTPPKieGUA/viewform?usp=send_form"
+    },
 
     // Site info
     site: {
@@ -77,8 +77,21 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Credenciamento / Café da manhã",
-        time: "8h00"
+        time: "8h00",
+        slots: [
+          {
+            name: "Credenciamento / Café da manhã",
+            //description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies rhoncus metus. Vivamus nec elit in lacus tempor ullamcorper non eget diam. Nam vulputate non velit quis condimentum. Nulla elementum, tellus laoreet sagittis vulputate, dui tortor tincidunt lacus, eget suscipit arcu felis eget tortor. In posuere, erat quis facilisis consequat, ante ex blandit nibh, ac lobortis sapien ipsum id odio. Suspendisse finibus, neque in tempor volutpat, est massa aliquam dolor, in posuere turpis ante at neque. Aliquam nec cursus nibh. Praesent condimentum luctus magna ut tempus. ',
+            description: '-',
+            //tags: ['Red']
+          },
+          // {
+          //   name: "Ciclo de Trabalho Ágil",
+          //   description: 'Desenvolver sistemas que atendam as necessidades atuais do mercado vêm se tornado uma atividade cada vez mais desafiadora. Os desafios incluem alta escalabilidade, robustez, tolerância a falhas e distribuição, entre muitos outros e, claro, tudo isso tem de estar pronto o mais rápido possível. Nesta palestra, apresentarei alguns conceitos fundamentais de programação funcional e da linguagem Elixir que podem lhe ajudar a desenhar e implementar sistemas capazes de resolver estes e outros desafios.',
+          //   tags: ['Black'],
+          //   speaker: 'Henrique Bastos'
+          // }
+        ]
       },
       // {
       //   name: "Linus Torvalds",
@@ -111,8 +124,13 @@ module.exports = {
       //   }
       // },
       {
-        name: "Almoço",
-        time: "12h00"
+        time: "12h00",
+        slots: [
+          {
+            name: "Almoço",
+            description: '-'
+          }
+        ]
       },
       // {
       //   name: "Chuck Norris",
@@ -145,8 +163,13 @@ module.exports = {
       //   }
       // },
       {
-        name: "Coffee-break",
-        time: "15h30"
+        time: "15h30",
+        slots: [
+          {
+            name: "Coffee-break",
+            description: '-'
+          }
+        ]
       },
       // {
       //   name: "Mark Zuckerberg",
@@ -179,8 +202,13 @@ module.exports = {
       //   }
       // }
       {
-        name: "Encerramento oficial",
-        time: "18h00"
+        time: "18h00",
+        slots: [
+          {
+            name: "Encerramento oficial",
+            description: '-'
+          }
+        ]
       },
     ],
 
