@@ -33,7 +33,7 @@
     <ul id="social-midias">
       <% for social in @social_midias: %>
         <li>
-          <a href="<%= social.url %>" target="_blank" class="<%= social.name.toLowerCase() %>"><%= social.name %></a>
+          <a href="<%= social.url %>" title="<%= social.title %>" target="_blank" class="<%= social.name.toLowerCase() %>"><%= social.name %></a>
         </li>
       <% end %>
     </ul>

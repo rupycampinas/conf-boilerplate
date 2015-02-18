@@ -22,11 +22,18 @@ module.exports = {
     social_midias: [
       {
         name: 'Facebook',
-        url: 'https://www.facebook.com/rupycampinas'
+        url: 'https://www.facebook.com/rupycampinas',
+        title: 'Curta-nos no Facebook'
       },
       {
         name: 'Twitter',
-        url: 'https://twitter.com/rupycampinas'
+        url: 'https://twitter.com/rupycampinas',
+        title: 'Siga-nos no Twitter'
+      },
+      {
+        name: 'Email',
+        url: 'http://eepurl.com/-6P0f',
+        title: 'Entre em nossa lista de emails'
       },
     ],
 
