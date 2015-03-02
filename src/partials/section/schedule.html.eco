@@ -1,5 +1,6 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<div class="schedule-tbl">
+<p style="margin-bottom: 0">Em breve</p> 
+<!-- <div class="schedule-tbl">
   <table>
     <thead>
       <tr>
@@ -68,4 +69,4 @@
 
     </tbody>
   </table>
-</div>
+</div> -->

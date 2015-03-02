@@ -81,6 +81,34 @@ module.exports = {
       contact: "Contato"
     },
 
+    speakers: [
+      {
+        name: 'André Luis Anastácio',
+        description: 'Desenvolvedor Ruby, apaixonado por game development e Clojure.',
+        photo: 'themes/yellow-swan/img/andre.jpg'
+      },
+      {
+        name: 'Cássio Zen',
+        description: 'Trabalha com programação há mais de 10 anos tendo atuado no Brasil e nos EUA desenvolvendo projetos para grandes marcas como Google, Coca-Cola, Itaú, Unilever entre outros. Atualmente trabalha como consultor após ter sua startup adquirida no final de 2014 e até agora não decorou o caminho de casa pro trabalho.',
+        photo: 'themes/yellow-swan/img/cassio.jpg'
+      },
+      {
+        name: 'João Moura',
+        description: 'Co-Fouder da Gioco Pro, entusiasta das novas tecnologias, Stratups e Open Source. Escritor para o SitePoint e palestrante de conferências internacionais e nacionais.',
+        photo: 'themes/yellow-swan/img/joao.jpg'
+      },
+      {
+        name: 'Mateus Ortiz',
+        description: 'Criador do Web Components the Right Way entre outros projetos. Front-end Developer, já trabalhou como Front-end na Megaranto.com e em outra agencia. Paranaense, gosta muito de open source e na maioria do tempo contribui.',
+        photo: 'themes/yellow-swan/img/mateus.jpg'
+      },
+      {
+        name: 'Renzo Nuccitelli',
+        description: 'Engenheiro de Computação formado pelo ITA. Especialista em programação web no Google App Engine, usa Python desde 2009. Foi Diretor de Tecnologia na startup de educação QMagico, Apaixonado por dar aulas, é professor da Fatec onde ministra as matérias de Orientação a Objetos e "Applicações para Internet Utilizando Banco de Dados". Já palestrou em eventos como Google Developer Bus, DevFest, Rupy e Python Brasil. Escreve sobre tecnologia em seu blog.renzo.pro.br e no IMasters, onde é colunista.',
+        photo: 'themes/yellow-swan/img/renzo.jpg'
+      },
+    ],
+
     // The entire schedule
     schedule: [
       {
