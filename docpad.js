@@ -253,6 +253,11 @@ module.exports = {
         name: "Eventick",
         logo: "themes/yellow-swan/img/sponsor.png",
         url: "http://eventick.com.br"
+      },
+      {
+        name: "Casa do Código",
+        logo: "themes/yellow-swan/img/cdc-logo.svg",
+        url: "http://www.casadocodigo.com.br"
       }
     ],
 
