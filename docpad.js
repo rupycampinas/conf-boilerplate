@@ -249,10 +249,15 @@ module.exports = {
 
     // List of Sponsors
     sponsors: [
+      // {
+      //   name: "Eventick",
+      //   logo: "themes/yellow-swan/img/sponsor.png",
+      //   url: "http://eventick.com.br"
+      // },
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
+        name: "Caelum",
+        logo: "themes/yellow-swan/img/caelum-logo.jpg",
+        url: "https://www.caelum.com.br/"
       },
       {
         name: "Casa do Código",
@@ -261,7 +266,7 @@ module.exports = {
       },
       {
         name: "TreinaWeb",
-        logo: "themes/yellow-swan/img/treinaweb.png",
+        logo: "themes/yellow-swan/img/treinaweb.jpg",
         url: "https://www.treinaweb.com.br/"
       }
     ],
