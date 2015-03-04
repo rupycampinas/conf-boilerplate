@@ -94,7 +94,7 @@ module.exports = {
       },
       {
         name: 'João Moura',
-        description: 'Co-Fouder da Gioco Pro, entusiasta das novas tecnologias, Stratups e Open Source. Escritor para o SitePoint e palestrante de conferências internacionais e nacionais.',
+        description: 'Co-Fouder da Gioco Pro, entusiasta das novas tecnologias, Startups e Open Source. Escritor para o SitePoint e palestrante de conferências internacionais e nacionais.',
         photo: 'themes/yellow-swan/img/joao.jpg'
       },
       {
@@ -258,6 +258,11 @@ module.exports = {
         name: "Casa do Código",
         logo: "themes/yellow-swan/img/cdc-logo.svg",
         url: "http://www.casadocodigo.com.br"
+      },
+      {
+        name: "TreinaWeb",
+        logo: "themes/yellow-swan/img/treinaweb.png",
+        url: "https://www.treinaweb.com.br/"
       }
     ],
 
