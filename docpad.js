@@ -118,6 +118,11 @@ module.exports = {
         photo: 'themes/yellow-swan/img/mateus.jpg'
       },
       {
+        name: 'Rafael França',
+        description: 'Desenvolvedor de Software e membro do Rails Core Team.',
+        photo: 'themes/yellow-swan/img/rafael.jpg'
+      },
+      {
         name: 'Renzo Nuccitelli',
         description: 'Engenheiro de Computação formado pelo ITA. Especialista em programação web no Google App Engine, usa Python desde 2009. Foi Diretor de Tecnologia na startup de educação QMagico, Apaixonado por dar aulas, é professor da Fatec onde ministra as matérias de Orientação a Objetos e "Applicações para Internet Utilizando Banco de Dados". Já palestrou em eventos como Google Developer Bus, DevFest, Rupy e Python Brasil. Escreve sobre tecnologia em seu blog.renzo.pro.br e no IMasters, onde é colunista.',
         photo: 'themes/yellow-swan/img/renzo.jpg'
