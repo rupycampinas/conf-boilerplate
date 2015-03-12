@@ -93,9 +93,24 @@ module.exports = {
         photo: 'themes/yellow-swan/img/cassio.jpg'
       },
       {
+        name: 'Fabio Akita',
+        description: 'co-fundador da Codeminer 42, empresa de desenvolvimento de software principalmente para startups. Desde 2008 é o criador e organizador do Rubyconf Brasil, uma das maiores conferências de tecnologia da América Latina. Tem experiência de 20 anos no mercado de software, tendo passado pelo mercado de grandes agências, consultoria SAP corporativo e pelo primeiro boom de startups em 2000.',
+        photo: 'themes/yellow-swan/img/fabio-akita.jpg'
+      },
+      {
+        name: 'Guilherme Garnier',
+        description: 'Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com. Mantém seu blog em http://blog.guilhermegarnier.com',
+        photo: 'themes/yellow-swan/img/guilherme-garnier.jpg'
+      },
+      {
         name: 'João Moura',
         description: 'Co-Fouder da Gioco Pro, entusiasta das novas tecnologias, Startups e Open Source. Escritor para o SitePoint e palestrante de conferências internacionais e nacionais.',
         photo: 'themes/yellow-swan/img/joao.jpg'
+      },
+      {
+        name: 'Julio Marins',
+        description: 'Desenvolvedor, violinista e nômade digital. Formado no CEFET/RJ, é frequentador do Coding Dojo Rio e organizador de dojos apoiando a comunidade compartilhando código e conhecimento.',
+        photo: 'themes/yellow-swan/img/julio-marins.jpg'
       },
       {
         name: 'Mateus Ortiz',
