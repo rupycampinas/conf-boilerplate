@@ -94,7 +94,7 @@ module.exports = {
       },
       {
         name: 'Fabio Akita',
-        description: 'co-fundador da Codeminer 42, empresa de desenvolvimento de software principalmente para startups. Desde 2008 é o criador e organizador do Rubyconf Brasil, uma das maiores conferências de tecnologia da América Latina. Tem experiência de 20 anos no mercado de software, tendo passado pelo mercado de grandes agências, consultoria SAP corporativo e pelo primeiro boom de startups em 2000.',
+        description: 'Co-fundador da Codeminer 42, empresa de desenvolvimento de software principalmente para startups. Desde 2008 é o criador e organizador do Rubyconf Brasil, uma das maiores conferências de tecnologia da América Latina. Tem experiência de 20 anos no mercado de software, tendo passado pelo mercado de grandes agências, consultoria SAP corporativo e pelo primeiro boom de startups em 2000.',
         photo: 'themes/yellow-swan/img/fabio-akita.jpg'
       },
       {
@@ -126,62 +126,77 @@ module.exports = {
 
     // The entire schedule
     schedule: [
+      // {
+      //   time: "8h00",
+      //   slots: [
+      //     {
+      //       name: "Credenciamento / Café da manhã",
+      //       //description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies rhoncus metus. Vivamus nec elit in lacus tempor ullamcorper non eget diam. Nam vulputate non velit quis condimentum. Nulla elementum, tellus laoreet sagittis vulputate, dui tortor tincidunt lacus, eget suscipit arcu felis eget tortor. In posuere, erat quis facilisis consequat, ante ex blandit nibh, ac lobortis sapien ipsum id odio. Suspendisse finibus, neque in tempor volutpat, est massa aliquam dolor, in posuere turpis ante at neque. Aliquam nec cursus nibh. Praesent condimentum luctus magna ut tempus. ',
+      //       description: '-',
+      //       //tags: ['Red']
+      //     }
+      //   ]
+      // },
       {
-        time: "8h00",
+        time: "a definir",
         slots: [
           {
-            name: "Credenciamento / Café da manhã",
-            //description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies rhoncus metus. Vivamus nec elit in lacus tempor ullamcorper non eget diam. Nam vulputate non velit quis condimentum. Nulla elementum, tellus laoreet sagittis vulputate, dui tortor tincidunt lacus, eget suscipit arcu felis eget tortor. In posuere, erat quis facilisis consequat, ante ex blandit nibh, ac lobortis sapien ipsum id odio. Suspendisse finibus, neque in tempor volutpat, est massa aliquam dolor, in posuere turpis ante at neque. Aliquam nec cursus nibh. Praesent condimentum luctus magna ut tempus. ',
-            description: '-',
-            //tags: ['Red']
+            name: "Tunando seu código Ruby",
+            description: 'Você acha que não tem problemas de performance na sua aplicação? Nessa talk vou mostrar alguns métodos de benchmark/profilling para você descobrir como tunar a sua aplicação Ruby/Rails. Alem de mostrar códigos que utilizamos no dia-dia que podem comprometer a performance da sua aplicação.',
+            tags: ['Black'],
+            speaker: 'André Luis Anastácio'
           },
-          // {
-          //   name: "Ciclo de Trabalho Ágil",
-          //   description: 'Desenvolver sistemas que atendam as necessidades atuais do mercado vêm se tornado uma atividade cada vez mais desafiadora. Os desafios incluem alta escalabilidade, robustez, tolerância a falhas e distribuição, entre muitos outros e, claro, tudo isso tem de estar pronto o mais rápido possível. Nesta palestra, apresentarei alguns conceitos fundamentais de programação funcional e da linguagem Elixir que podem lhe ajudar a desenhar e implementar sistemas capazes de resolver estes e outros desafios.',
-          //   tags: ['Black'],
-          //   speaker: 'Henrique Bastos'
-          // }
-        ]
-      },
-      // {
-      //   name: "Linus Torvalds",
-      //   photo: "themes/yellow-swan/img/speaker.jpg",
-      //   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //   company: "Linux Foundation",
-      //   link: {
-      //     href: "http://twitter.com/linus",
-      //     text: "@linus"
-      //   },
-      //   presentation: {
-      //     title: "Digging into a Linux Kernel",
-      //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //     time: "10h00"
-      //   }
-      // },
-      // {
-      //   name: "Bill Gates",
-      //   photo: "themes/yellow-swan/img/speaker.jpg",
-      //   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //   company: "Microsoft",
-      //   link: {
-      //     href: "http://github.com/billy95",
-      //     text: "@billy95"
-      //   },
-      //   presentation: {
-      //     title: "Introducing Windows 12",
-      //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //     time: "11h00"
-      //   }
-      // },
-      {
-        time: "12h00",
-        slots: [
           {
-            name: "Almoço",
-            description: '-'
+            name: "React e Flux: uma nova abordagem pra aplicações de alto desempenho",
+            description: 'React é uma biblioteca JavaScript para criação de interfaces de alto desempenho baseadas em componentes. Flux é uma arquitetura para desenvolvimento de aplicações que complementa o React. O objetivo dessa palestra é apresentar as tecnologias de forma prática e mostrar como elas podem ser empregadas no seu próximo projeto.',
+            tags: ['Red'],
+            speaker: 'Cássio Zen'
           }
         ]
       },
+      {
+        time: "a definir",
+        slots: [
+          {
+            name: "Arquitetura distribuída: escalando projetos e times",
+            description: 'Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado o case dos projetos Globosat Play e Globo.tv...',
+            tags: ['Black'],
+            speaker: 'Guilherme Garnier'
+          },
+          {
+            name: "Meteoro de pegasuuus! Desenvolvendo aplicações com Meteor.js",
+            description: 'O que é esse framework que o pessoal anda falando por ai? É node mesmo ou bruxaria realtime? Nessa palestra vou explicar como funciona o Meteor com sua dinâmica própria e "inovadora", ensinar como criar uma aplicação, seus prós e contras e tirar dúvidas',
+            tags: ['Red'],
+            speaker: 'Julio Marins'
+          }
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [
+          {
+            name: "Desbravando Web Components",
+            description: 'Descubra como esse conceito formado por cinco novas especificações (Templates, Decorators, Shadow DOM, Custom Elements, Imports) irá revolucionar o modo como desenvolvemos e interagimos na web. Com ferramentas como Polymer e X-Tag, podemos começar a tirar proveito desta nova tecnologia hoje. Vamos dar uma olhada em alguns dos elementos surpreendentes que já estão sendo produzidos, e explorar como você pode começar a aproveitar-los em seus próprios projetos.',
+            tags: ['Black'],
+            speaker: 'Mateus Ortiz'
+          },
+          {
+            name: "Programando a Felicidade",
+            description: 'Bate papo sobre envolvimento com a comunidade Python e como isso impactou minha vida de maneiras inesperadas, me levando a uma experiência de trabalhar apenas 2 dias por semana no último ano e meio, viajar para 5 estados do Brasil e estar com passagem marcada para conferência no Canadá. Afinal, é possível isso sem ser rico? Apareça e contribua com a discussão ;)',
+            tags: ['Red'],
+            speaker: 'Renzo Nuccitelli'
+          }
+        ]
+      },
+      // {
+      //   time: "12h00",
+      //   slots: [
+      //     {
+      //       name: "Almoço",
+      //       description: '-'
+      //     }
+      //   ]
+      // },
       // {
       //   name: "Chuck Norris",
       //   photo: "themes/yellow-swan/img/speaker.jpg",
@@ -212,54 +227,24 @@ module.exports = {
       //     time: "14h00"
       //   }
       // },
-      {
-        time: "15h30",
-        slots: [
-          {
-            name: "Coffee-break",
-            description: '-'
-          }
-        ]
-      },
       // {
-      //   name: "Mark Zuckerberg",
-      //   photo: "themes/yellow-swan/img/speaker.jpg",
-      //   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //   company: "Facebook",
-      //   link: {
-      //     href: "http://twitter.com/zuck",
-      //     text: "@zuck"
-      //   },
-      //   presentation: {
-      //     title: "Revealing Facebook Secrets",
-      //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //     time: "16h00"
-      //   }
+      //   time: "15h30",
+      //   slots: [
+      //     {
+      //       name: "Coffee-break",
+      //       description: '-'
+      //     }
+      //   ]
       // },
       // {
-      //   name: "Steve Wozniak",
-      //   photo: "themes/yellow-swan/img/speaker.jpg",
-      //   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //   company: "Apple, Inc.",
-      //   link: {
-      //     href: "http://twitter.com/woz",
-      //     text: "@woz"
-      //   },
-      //   presentation: {
-      //     title: "Why do I prefer Android over iPhone",
-      //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //     time: "17h00"
-      //   }
-      // }
-      {
-        time: "18h00",
-        slots: [
-          {
-            name: "Encerramento oficial",
-            description: '-'
-          }
-        ]
-      },
+      //   time: "18h00",
+      //   slots: [
+      //     {
+      //       name: "Encerramento oficial",
+      //       description: '-'
+      //     }
+      //   ]
+      // },
     ],
 
     // List of Sponsors

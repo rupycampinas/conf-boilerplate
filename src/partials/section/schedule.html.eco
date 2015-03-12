@@ -1,6 +1,6 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
 <p style="margin-bottom: 0">Em breve</p> 
-<!-- <div class="schedule-tbl">
+<div class="schedule-tbl">
   <table>
     <thead>
       <tr>
@@ -40,12 +40,14 @@
                         </strong>
                         <% if s.tags: %>
                           <% for tag in s.tags: %>
-                            <span class="tags <%= tag.toLowerCase() %>"><%= tag %></span>
+                            <!-- <span class="tags <%= tag.toLowerCase() %>"><%= tag %></span> -->
                           <% end %>
                         <% end %>  
                       </p>
                       <p>
-                        <%= s.speaker %>
+                        <a href="#<%= s.speaker %>">
+                          <%= s.speaker %>
+                        </a>
                       </p>
                     </li>
                   <% end %>
@@ -69,4 +71,4 @@
 
     </tbody>
   </table>
-</div> -->
+</div>
