@@ -1,16 +1,7 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p style="margin-bottom: 0">Em breve</p> 
 <div class="schedule-tbl">
   <table>
-    <thead>
-      <tr>
-        <th class="schedule-time">Horário</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Descrição</th>
-      </tr>
-    </thead>
     <tbody>
-
       <% for slot in @schedule: %>
         <% if slot.presentation: %>
           <tr>
@@ -29,7 +20,7 @@
         <% else: %>
           <tr class="schedule-other">
             <td class="schedule-time"><%= slot.time %></td>
-            <td class="schedule-slot">
+            <td class="schedule-slot" colspan="2">
               <% if slot.slots: %>
                 <ul>
                   <% for s in slot.slots: %>
@@ -49,17 +40,9 @@
                           <%= s.speaker %>
                         </a>
                       </p>
-                    </li>
-                  <% end %>
-                </ul>
-              <% end %>
-            </td>
-            <td class="schedule-description">
-              <% if slot.slots: %>
-                <ul>
-                  <% for s in slot.slots: %>
-                    <li>
-                      <%= s.description %>
+                      <p class="schedule-description">
+                        <%= s.description %>
+                      </p>
                     </li>
                   <% end %>
                 </ul>
