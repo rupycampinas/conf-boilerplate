@@ -11,7 +11,7 @@ module.exports = {
       description: "Tudo sobre Ruby, Python, JavaScript e o que há de mais incrível",
       date: "20 de junho",
       // If your event is free, just comment this line
-      price: "R$ 70",
+      price: "R$ 50",
       venue: "Faculdade de Engenharia Elétrica e de Computação (FEEC) - UNICAMP",
       address: "Avenida Albert Einstein, 400",
       city: "Campinas",
@@ -39,11 +39,11 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    // callToAction: {
-    //     text: "Inscreva-se!",
-    //     //link: "http://eventick.com.br"
-    //     link: "javascript:void(0)"
-    // },
+    callToAction: {
+        text: "Inscreva-se!",
+        //link: "http://eventick.com.br"
+        link: "https://eventioz.com.br/e/rupy-campinas-2015"
+    },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     callForPapers: {
