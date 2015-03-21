@@ -259,14 +259,14 @@ module.exports = {
       //   logo: "themes/yellow-swan/img/sponsor.png",
       //   url: "http://eventick.com.br"
       // },
-      {
-        name: "Eventioz",
-        logo: "themes/yellow-swan/img/eventioz.svg",
-        url: "http://eventioz.com.br/"
-      },
+      // {
+      //   name: "Eventioz",
+      //   logo: "themes/yellow-swan/img/eventioz.svg",
+      //   url: "http://eventioz.com.br/"
+      // },
       {
         name: "Editora Novatec",
-        logo: "themes/yellow-swan/img/novatec.png",
+        logo: "themes/yellow-swan/img/novatec.jpg",
         url: "http://www.novatec.com.br/"
       },
       {
