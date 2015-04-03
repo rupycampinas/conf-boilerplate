@@ -113,6 +113,11 @@ module.exports = {
         photo: 'themes/yellow-swan/img/julio-marins.jpg'
       },
       {
+        name: 'Luciano Ramalho',
+        description: "Ramalho é autor do livro Fluent Python (O'Reilly, 2014) e sócio/professor em Python.pro.br, oferecendo cursos in-company e também online. Foi diretor técnico do Brasil Online, primeiro portal da Abril na Web, lançado uma semana antes do UOL. Depois liderou times para os sites IDG Now, BOL, UOL, AOL Brasil e outros, usando Python desde 1998. Palestrante em eventos internacionais como PyCon US, OSCON ajudou a criar a Associação Python Brasil e foi seu presidente. É membro da Python Software Foundation e fundador do Garoa Hacker Clube, o primeiro hackerspace do Brasil.",
+        photo: 'themes/yellow-swan/img/luciano.jpg'
+      },
+      {
         name: 'Mateus Ortiz',
         description: 'Criador do Web Components the Right Way entre outros projetos. Front-end Developer, já trabalhou como Front-end na Megaranto.com e em outra agencia. Paranaense, gosta muito de open source e na maioria do tempo contribui.',
         photo: 'themes/yellow-swan/img/mateus.jpg'
@@ -191,6 +196,17 @@ module.exports = {
             tags: ['Red'],
             speaker: 'Renzo Nuccitelli'
           }
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [
+          {
+            name: "Girando Pratos: Concorrência com Futures em Python",
+            description: 'Novidades como o módulo `concurrent.futures`, delegação de co-rotinas com `yield from` e o módulo `asyncio` representam um capítulo novo na evolução de Python, e são as melhores razões para migrar para Python 3. Esta palestra mostrará como essas ferramentas tornam a programação concorrente acessível até mesmo para programadores casuais, com aumentos dramáticos de desempenho em clientes e servidores na rede.',
+            tags: ['Black'],
+            speaker: 'Luciano Ramalho'
+          },
         ]
       },
       // {
