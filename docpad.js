@@ -113,6 +113,11 @@ module.exports = {
         photo: 'themes/yellow-swan/img/julio-marins.jpg'
       },
       {
+        name: 'Leandro Zanotto',
+        description: "HPC System Engineer no Centro de Engenharia e Ciências Computacionais na Unicamp, com otimização de sistemas de dinâmica molecular e bioinformatica, utilizando tecnologias multicore e manycore.",
+        photo: 'themes/yellow-swan/img/leandro.jpg'
+      },
+      {
         name: 'Luciano Ramalho',
         description: "Ramalho é autor do livro Fluent Python (O'Reilly, 2014) e sócio/professor em Python.pro.br, oferecendo cursos in-company e também online. Foi diretor técnico do Brasil Online, primeiro portal da Abril na Web, lançado uma semana antes do UOL. Depois liderou times para os sites IDG Now, BOL, UOL, AOL Brasil e outros, usando Python desde 1998. Palestrante em eventos internacionais como PyCon US, OSCON ajudou a criar a Associação Python Brasil e foi seu presidente. É membro da Python Software Foundation e fundador do Garoa Hacker Clube, o primeiro hackerspace do Brasil.",
         photo: 'themes/yellow-swan/img/luciano.jpg'
@@ -190,7 +195,7 @@ module.exports = {
             tags: ['Black'],
             speaker: 'Mateus Ortiz'
           },
-          {
+          {                                                                                                                                                                                                                                                                                                                                                                           
             name: "Programando a Felicidade",
             description: 'Bate papo sobre envolvimento com a comunidade Python e como isso impactou minha vida de maneiras inesperadas, me levando a uma experiência de trabalhar apenas 2 dias por semana no último ano e meio, viajar para 5 estados do Brasil e estar com passagem marcada para conferência no Canadá. Afinal, é possível isso sem ser rico? Apareça e contribua com a discussão ;)',
             tags: ['Red'],
@@ -200,12 +205,23 @@ module.exports = {
       },
       {
         time: "a definir",
-        slots: [
+        slots: [                                                                                      
           {
             name: "Girando Pratos: Concorrência com Futures em Python",
             description: 'Novidades como o módulo `concurrent.futures`, delegação de co-rotinas com `yield from` e o módulo `asyncio` representam um capítulo novo na evolução de Python, e são as melhores razões para migrar para Python 3. Esta palestra mostrará como essas ferramentas tornam a programação concorrente acessível até mesmo para programadores casuais, com aumentos dramáticos de desempenho em clientes e servidores na rede.',
             tags: ['Black'],
             speaker: 'Luciano Ramalho'
+          },
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [                                                                                      
+          {
+            name: "Como aumentar o desempenho de sua aplicação com Python",
+            description: 'Esta palestra irá abordar técnicas para identificar problemas e utilizar melhor o hardware que temos hoje utilizando Python bem como mostrar o que temos disponível atualmente auxiliando quem busca maior desempenho em sua aplicação.',
+            tags: ['Black'],
+            speaker: 'Leandro Zanotto'
           },
         ]
       },
