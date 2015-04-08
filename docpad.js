@@ -46,9 +46,9 @@ module.exports = {
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    callForPapers: {
-        url: "https://docs.google.com/forms/d/1aD2J4CzWbCcoK45fk9kYGCNd8paKt-3nAMTPPKieGUA/viewform?usp=send_form"
-    },
+    // callForPapers: {
+    //     url: "https://docs.google.com/forms/d/1aD2J4CzWbCcoK45fk9kYGCNd8paKt-3nAMTPPKieGUA/viewform?usp=send_form"
+    // },
 
     // Site info
     site: {
@@ -86,6 +86,11 @@ module.exports = {
         name: 'André Luis Anastácio',
         description: 'Desenvolvedor Ruby, apaixonado por game development e Clojure.',
         photo: 'themes/yellow-swan/img/andre.jpg'
+      },
+      {
+        name: 'Capi Etheriel',
+        description: 'Contribuidor de diversas tecnologias livres e abertas para a web, entre elas Scrapy, Drupal e CasperJS. Como ativista por dados abertos, adora raspar dados da web junto à rede Transparência Hacker. Também desenvolve jogos de tabuleiro com a Quequeré Jogos e integra a trupe do Ônibus Hacker.',
+        photo: 'themes/yellow-swan/img/capi.jpg'
       },
       {
         name: 'Cássio Zen',
@@ -126,6 +131,11 @@ module.exports = {
         name: 'Mateus Ortiz',
         description: 'Criador do Web Components the Right Way entre outros projetos. Front-end Developer, já trabalhou como Front-end na Megaranto.com e em outra agencia. Paranaense, gosta muito de open source e na maioria do tempo contribui.',
         photo: 'themes/yellow-swan/img/mateus.jpg'
+      },
+      {
+        name: 'Oscar Esgalha',
+        description: 'Hacker por hobby e profissão. Brinca de programar há 8 anos e há mais de 4 é pago para isso. Formou-se em Ciência da Computação pela Unicamp no fim do ano passado. Gosta de tecnologias novas, hackathons, FOSS, startups e recentemente adquiriu gosto por conferências como esta.',
+        photo: 'themes/yellow-swan/img/oscar.jpg'
       },
       {
         name: 'Rafael França',
@@ -212,6 +222,12 @@ module.exports = {
             tags: ['Black'],
             speaker: 'Luciano Ramalho'
           },
+          {
+            name: "O segredo dos Web Scrapers",
+            description: 'Os dados estão todos na web. Alguns projetos oferecem APIs especializadas, mas você já tem toda a interface que precisa no HTML. Pegar os dados da web pode ser uma delícia usando tecnologias especializadas: nossas favoritas são o framework Scrapy (Python) e o browser programático CasperJS. Em ambas as tecnologias, veremos as linguagens dinâmicas dando o seu melhor para trabalhar com programação funcional e retornar os dados que nos interessam!',
+            tags: ['Red'],
+            speaker: 'Capi Etheriel'
+          },
         ]
       },
       {
@@ -222,6 +238,12 @@ module.exports = {
             description: 'Esta palestra irá abordar técnicas para identificar problemas e utilizar melhor o hardware que temos hoje utilizando Python bem como mostrar o que temos disponível atualmente auxiliando quem busca maior desempenho em sua aplicação.',
             tags: ['Black'],
             speaker: 'Leandro Zanotto'
+          },
+          {
+            name: "Usando Ruby em (quase) qualquer lugar",
+            description: 'Ano passado foi lançada a primeira versão estável do mruby, um interpretador mais leve e embedável da linguagem de programação Ruby. No entanto, ainda é difícil encontrar tutoriais mais completos ou exemplos bem documentados, sobre como de fato utilizá-lo. O objetivo desta palestra, que será bem prática, é ensinar como criar extensões (mrbgems) e demonstrar uma aplicação completa que usa Ruby sem que a máquina do usuário precise ter um interpretador instalado.',
+            tags: ['Red'],
+            speaker: 'Oscar Esgalha'
           },
         ]
       },
