@@ -113,6 +113,11 @@ module.exports = {
         photo: 'themes/yellow-swan/img/joao.jpg'
       },
       {
+        name: 'João S. O. Bueno',
+        description: 'Consultor e desenvolvedor em Software Livre desde 2001. Trabalha com a linguagem de programação Python, e é contribuidor do projeto GNU Image Manipulation Program (GIMP) . Realizou projetos com várias empresas, ressaltando-se colaboração no desenvolvimento de portais web como o do Sebrae Nacional, Brasil.gov.br e da revista CartaCapital. Foi membro diretor da Associação Python Brasil de 2009 a 2013. Atualmente desenvolve um projeto de ERP e automação comercial para uma empresa privada em Campinas.',
+        photo: 'themes/yellow-swan/img/joao-bueno.jpg'
+      },
+      {
         name: 'Julio Marins',
         description: 'Desenvolvedor, violinista e nômade digital. Formado no CEFET/RJ, é frequentador do Coding Dojo Rio e organizador de dojos apoiando a comunidade compartilhando código e conhecimento.',
         photo: 'themes/yellow-swan/img/julio-marins.jpg'
@@ -244,6 +249,17 @@ module.exports = {
             description: 'Ano passado foi lançada a primeira versão estável do mruby, um interpretador mais leve e embedável da linguagem de programação Ruby. No entanto, ainda é difícil encontrar tutoriais mais completos ou exemplos bem documentados, sobre como de fato utilizá-lo. O objetivo desta palestra, que será bem prática, é ensinar como criar extensões (mrbgems) e demonstrar uma aplicação completa que usa Ruby sem que a máquina do usuário precise ter um interpretador instalado.',
             tags: ['Red'],
             speaker: 'Oscar Esgalha'
+          },
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [                                                                                      
+          {
+            name: "Python e a Invasão dos Objetos Inteligentes",
+            description: 'A linguagem Python oferece vários mecanismos para personalizar a criação de objetos, bem como o acesso a seus atributos. Esta apresentação mostra exemplos ao vivo de alguns dos principais meios que o Python dispõe para acrescentar capacidades à hierarquias de classes - permitindo a criação de mapeadores objeto-relacionais, introspectar bibliotecas e objetos nativos mapeados para Python, permitir anotações e desenvolvimento "orientado a aspectos", computação "lazy" e matemática simbólica dentre outras funcionalidades. O trabalho passa pela demonstração e explicação dos "decorators" em Python, como funcionam as "properties", e o mecanismo utilizado pela linguagem para o uso de métodos de objetos: os "descriptors". Os objetivos da palestra são: esclarecer como os principais frameworks, ORMs, e bibliotecas em Python podem fazer suas  "mágicas", aparentemente  mudando o comportamento da linguagem;  e dar idéias de como se implementar técnicas semelhantes em sistemas próprios.',
+            tags: ['Black'],
+            speaker: 'João S. O. Bueno'
           },
         ]
       },
