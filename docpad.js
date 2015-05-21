@@ -378,7 +378,7 @@ module.exports = {
       },
       {
         name: "Eu Compraria",
-        logo: "themes/yellow-swan/img/eucompraria.png",
+        logo: "themes/yellow-swan/img/eucompraria.jpg",
         url: "http://eucompraria.com.br"
       },
       {
