@@ -322,6 +322,14 @@ module.exports = {
       // },
     ],
 
+    gold_sponsors: [
+      {
+        name: "Eventioz",
+        logo: "themes/yellow-swan/img/eventioz.jpg",
+        url: "http://eventioz.com.br/"
+      },
+    ],
+
     // List of Sponsors
     sponsors: [
       // {
