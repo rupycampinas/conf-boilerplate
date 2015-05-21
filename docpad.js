@@ -369,6 +369,11 @@ module.exports = {
         url: "http://www.conpec.com.br/"
       },
       {
+        name: "Eu Compraria",
+        logo: "themes/yellow-swan/img/eucompraria.png",
+        url: "http://eucompraria.com.br"
+      },
+      {
         name: "BrazilJS",
         logo: "themes/yellow-swan/img/partner.png",
         url: "http://braziljs.org"
