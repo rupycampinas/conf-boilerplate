@@ -333,6 +333,9 @@ module.exports = {
         logo: "themes/yellow-swan/img/caiena.jpg",
         url: "http://www.caiena.net"
       },
+      {
+        description: "Uma empresa de tecnologia que vem colocando vírgulas em histórias onde há finais que podem ser melhorados. Trabalhamos em projetos transformadores usando design e engenharia de software, aliados a uma metodologia ágil de desenvolvimento. A Caiena está inovando e transformando positivamente as áreas da educação e socioambiental."
+      },
     ],
 
     // List of Sponsors
