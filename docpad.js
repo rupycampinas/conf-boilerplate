@@ -328,6 +328,11 @@ module.exports = {
         logo: "themes/yellow-swan/img/eventioz.jpg",
         url: "http://eventioz.com.br/"
       },
+      {
+        name: "Caiena",
+        logo: "themes/yellow-swan/img/caiena.jpg",
+        url: "http://www.caiena.net"
+      },
     ],
 
     // List of Sponsors
