@@ -42,7 +42,7 @@ module.exports = {
     callToAction: {
         text: "Inscreva-se!",
         //link: "http://eventick.com.br"
-        link: "https://eventioz.com.br/e/rupy-campinas-2015"
+        link: "javascript:void(0)"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -114,7 +114,7 @@ module.exports = {
       },
       {
         name: 'João S. O. Bueno',
-        description: 'Consultor e desenvolvedor em Software Livre desde 2001. Trabalha com a linguagem de programação Python, e é contribuidor do projeto GNU Image Manipulation Program (GIMP) . Realizou projetos com várias empresas, ressaltando-se colaboração no desenvolvimento de portais web como o do Sebrae Nacional, Brasil.gov.br e da revista CartaCapital. Foi membro diretor da Associação Python Brasil de 2009 a 2013. Atualmente desenvolve um projeto de ERP e automação comercial para uma empresa privada em Campinas.',
+        description: 'Consultor e desenvolvedor em Software Livre desde 2001. Trabalha com a linguagem de programação Python, e é contribuidor do projeto GNU Image Manipulation Program (GIMP) . Realizou projetos com várias empresas, ressaltando-se colaboração no desenvolvimento de portais web como o do Sebrae Nacional, Brasil.gov.br e da revista CartaCapital. Foi membro diretor da Associação Python Brasil de 2009 a 2013. Atualmente é desenvolvedor Python na Titans Group.',
         photo: 'themes/yellow-swan/img/joao-bueno.jpg'
       },
       {
@@ -188,8 +188,8 @@ module.exports = {
         time: "a definir",
         slots: [
           {
-            name: "Arquitetura distribuída: escalando projetos e times",
-            description: 'Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado o case dos projetos Globosat Play e Globo.tv...',
+            name: "A evolução de uma arquitetura distribuída",
+            description: 'Quando um produto cresce, um dos maiores desafios é como evoluir a arquitetura de maneira sustentável. Nesta palestra, será apresentado como a plataforma criada para o Globo.tv cresceu e evoluiu com o projeto Globosat Play. Entre os desafios, como permitir que mais de um time trabalhe na mesma plataforma, como compartilhar componentes e como atualizar um projeto sem quebrar o outro.',
             tags: ['Black'],
             speaker: 'Guilherme Garnier'
           },
@@ -383,6 +383,11 @@ module.exports = {
         name: "Conpec",
         logo: "themes/yellow-swan/img/conpec.jpg",
         url: "http://www.conpec.com.br/"
+      },
+      {
+        name: "InfoQ Brasil",
+        logo: "themes/yellow-swan/img/infoq.jpg",
+        url: "http://infoq.com.br/"
       },
       {
         name: "Eu Compraria",
