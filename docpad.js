@@ -218,8 +218,8 @@ module.exports = {
             speaker: 'Mateus Ortiz'
           },
           {
-            name: "",
-            description: '',
+            name: "AMS e Rails, construindo APIs com s2",
+            description: 'Muitas pessoas tem utilizado Rails para construir APIs externas e internas, mas construir uma API de boa qualidade pode ser difícil, e performance é um elemento chave para esse objetivo. Gostaria de dividir algumas das minhas histórias construindo APIs, e compartilhar como o Active Model Serializer, component do Rails-API me ajudou nesse processo. AMS tem sido utilizado por milhares de aplicações ao redor do mundo, ajudando a trazer convenções para a criação de APIs e manipulações de JSON. Nessa palestra vou falar também sobre a nova versão do AMS, novas funcionalidades, o futuro e como temos nos esforçado pela possibilidade de estar integrado no Rails 5.',
             tags: ['Black'],
             speaker: 'João Moura'
           }
