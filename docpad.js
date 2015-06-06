@@ -178,10 +178,10 @@ module.exports = {
         time: "09:00",
         slots: [
           {
-            name: "Tunando seu código Ruby",
-            description: 'Você acha que não tem problemas de performance na sua aplicação? Nessa talk vou mostrar alguns métodos de benchmark/profilling para você descobrir como tunar a sua aplicação Ruby/Rails. Alem de mostrar códigos que utilizamos no dia-dia que podem comprometer a performance da sua aplicação.',
+            name: "AMS e Rails, construindo APIs com s2",
+            description: 'Muitas pessoas tem utilizado Rails para construir APIs externas e internas, mas construir uma API de boa qualidade pode ser difícil, e performance é um elemento chave para esse objetivo. Gostaria de dividir algumas das minhas histórias construindo APIs, e compartilhar como o Active Model Serializer, component do Rails-API me ajudou nesse processo. AMS tem sido utilizado por milhares de aplicações ao redor do mundo, ajudando a trazer convenções para a criação de APIs e manipulações de JSON. Nessa palestra vou falar também sobre a nova versão do AMS, novas funcionalidades, o futuro e como temos nos esforçado pela possibilidade de estar integrado no Rails 5.',
             tags: ['Black'],
-            speaker: 'André Luis Anastácio'
+            speaker: 'João Moura'
           },
           {
             name: "O segredo dos Web Scrapers",
@@ -218,11 +218,11 @@ module.exports = {
             speaker: 'Mateus Ortiz'
           },
           {
-            name: "AMS e Rails, construindo APIs com s2",
-            description: 'Muitas pessoas tem utilizado Rails para construir APIs externas e internas, mas construir uma API de boa qualidade pode ser difícil, e performance é um elemento chave para esse objetivo. Gostaria de dividir algumas das minhas histórias construindo APIs, e compartilhar como o Active Model Serializer, component do Rails-API me ajudou nesse processo. AMS tem sido utilizado por milhares de aplicações ao redor do mundo, ajudando a trazer convenções para a criação de APIs e manipulações de JSON. Nessa palestra vou falar também sobre a nova versão do AMS, novas funcionalidades, o futuro e como temos nos esforçado pela possibilidade de estar integrado no Rails 5.',
+            name: "Tunando seu código Ruby",
+            description: 'Você acha que não tem problemas de performance na sua aplicação? Nessa talk vou mostrar alguns métodos de benchmark/profilling para você descobrir como tunar a sua aplicação Ruby/Rails. Alem de mostrar códigos que utilizamos no dia-dia que podem comprometer a performance da sua aplicação.',
             tags: ['Black'],
-            speaker: 'João Moura'
-          }
+            speaker: 'André Luis Anastácio'
+          },
         ]
       },
       {
