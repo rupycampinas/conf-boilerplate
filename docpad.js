@@ -255,8 +255,8 @@ module.exports = {
         time: "14:30",
         slots: [    
           {
-            name: "",
-            description: '',
+            name: "Novas linguagens: o que vem depois do Ruby",
+            description: 'Mesmo sendo um Rubista não significa que não estamos prestando atenção às novas ondas de linguagens. Nos últimos anos vimos um crescimento no nascimento de novas linguagens, desde Groovy, Scala, Clojure, GoLang, Swift, Rust, Elixir, isso sem contar o renascimento do Javascript. De onde vem essas linguagens? Por que elas existem? Quais devemos prestar atenção? É impossível responder satisfatoriamente a todas essa perguntas, mas vamos tentar pelo menos trazer alguma perspectiva.',
             tags: ['Black'],
             speaker: 'Fabio Akita'
           },                                                                                  
