@@ -195,10 +195,10 @@ module.exports = {
         time: "10:00",
         slots: [
           {
-            name: "Usando Ruby em (quase) qualquer lugar",
-            description: 'Ano passado foi lançada a primeira versão estável do mruby, um interpretador mais leve e embedável da linguagem de programação Ruby. No entanto, ainda é difícil encontrar tutoriais mais completos ou exemplos bem documentados, sobre como de fato utilizá-lo. O objetivo desta palestra, que será bem prática, é ensinar como criar extensões (mrbgems) e demonstrar uma aplicação completa que usa Ruby sem que a máquina do usuário precise ter um interpretador instalado.',
+            name: "Ruby Além dos Trilhos",
+            description: 'O Rails ao longo dos últimos anos se tornou uma plataforma bastante sólida e respeitada. E boa parte desse sucesso é atribuido a uma comunidade inovadora, vibrante e bem "opinionada". Como consequência, hoje temos um vasto leque de bibliotecas, padrões de projeto, convenções e boas práticas à nossa mão. Porém, quando não somos criteriosos, todos esses recursos podem facilmente trazer uma grande dor-de-cabeça: o inferno da manutenção. Complexidade desnecessária, alto acoplamento, indireção, todos esses fatores acabam nos atrapalhando quando estamos evoluindo nosso software. Nesta palestra visitaremos alguns exemplos reais desses problemas e aprenderemos como enxergar além para evitá-los, trazendo de volta a tranquilidade ao nosso dia-a-dia de desenvolvimento.',
             tags: ['Red'],
-            speaker: 'Oscar Esgalha'
+            speaker: 'Rafael França'
           },
           {
             name: "Python e a Invasão dos Objetos Inteligentes",
@@ -298,10 +298,10 @@ module.exports = {
         time: "17:00",
         slots: [  
           {
-            name: "",
-            description: '',
+            name: "Usando Ruby em (quase) qualquer lugar",
+            description: 'Ano passado foi lançada a primeira versão estável do mruby, um interpretador mais leve e embedável da linguagem de programação Ruby. No entanto, ainda é difícil encontrar tutoriais mais completos ou exemplos bem documentados, sobre como de fato utilizá-lo. O objetivo desta palestra, que será bem prática, é ensinar como criar extensões (mrbgems) e demonstrar uma aplicação completa que usa Ruby sem que a máquina do usuário precise ter um interpretador instalado.',
             tags: ['Red'],
-            speaker: 'Rafael França'
+            speaker: 'Oscar Esgalha'
           },
           {
             name: "React e Flux: uma nova abordagem pra aplicações de alto desempenho",
