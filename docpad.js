@@ -9,7 +9,7 @@ module.exports = {
     conf: {
       name: "RuPy Campinas",
       description: "Tudo sobre Ruby, Python, JavaScript e o que há de mais incrível",
-      date: "20 de junho",
+      date: "20 de junho de 2015",
       // If your event is free, just comment this line
       price: "R$ 50",
       venue: "Faculdade de Engenharia Elétrica e de Computação (FEEC) - UNICAMP",
@@ -181,7 +181,8 @@ module.exports = {
             name: "AMS e Rails, construindo APIs com s2",
             description: 'Muitas pessoas tem utilizado Rails para construir APIs externas e internas, mas construir uma API de boa qualidade pode ser difícil, e performance é um elemento chave para esse objetivo. Gostaria de dividir algumas das minhas histórias construindo APIs, e compartilhar como o Active Model Serializer, component do Rails-API me ajudou nesse processo. AMS tem sido utilizado por milhares de aplicações ao redor do mundo, ajudando a trazer convenções para a criação de APIs e manipulações de JSON. Nessa palestra vou falar também sobre a nova versão do AMS, novas funcionalidades, o futuro e como temos nos esforçado pela possibilidade de estar integrado no Rails 5.',
             tags: ['Black'],
-            speaker: 'João Moura'
+            speaker: 'João Moura',
+            slides: 'https://speakerdeck.com/joaomdmoura/ams-api-rails-and-a-developer-a-love-story'
           },
           {
             name: "O segredo dos Web Scrapers",
@@ -241,7 +242,8 @@ module.exports = {
             name: "A evolução de uma arquitetura distribuída",
             description: 'Quando um produto cresce, um dos maiores desafios é como evoluir a arquitetura de maneira sustentável. Nesta palestra, será apresentado como a plataforma criada para o Globo.tv cresceu e evoluiu com o projeto Globosat Play. Entre os desafios, como permitir que mais de um time trabalhe na mesma plataforma, como compartilhar componentes e como atualizar um projeto sem quebrar o outro.',
             tags: ['Black'],
-            speaker: 'Guilherme Garnier'
+            speaker: 'Guilherme Garnier',
+            slides: 'http://ggarnier.github.io/evolucao-arquitetura'
           },    
           {                                                                                                                                                                                                                                                                                                                                                                           
             name: "Programando a Felicidade",
