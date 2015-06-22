@@ -199,13 +199,15 @@ module.exports = {
             name: "Ruby Além dos Trilhos",
             description: 'O Rails ao longo dos últimos anos se tornou uma plataforma bastante sólida e respeitada. E boa parte desse sucesso é atribuido a uma comunidade inovadora, vibrante e bem "opinionada". Como consequência, hoje temos um vasto leque de bibliotecas, padrões de projeto, convenções e boas práticas à nossa mão. Porém, quando não somos criteriosos, todos esses recursos podem facilmente trazer uma grande dor-de-cabeça: o inferno da manutenção. Complexidade desnecessária, alto acoplamento, indireção, todos esses fatores acabam nos atrapalhando quando estamos evoluindo nosso software. Nesta palestra visitaremos alguns exemplos reais desses problemas e aprenderemos como enxergar além para evitá-los, trazendo de volta a tranquilidade ao nosso dia-a-dia de desenvolvimento.',
             tags: ['Red'],
-            speaker: 'Rafael França'
+            speaker: 'Rafael França',
+            slides: 'https://speakerdeck.com/rafaelfranca/ruby-alem-dos-trilhos'
           },
           {
             name: "Python e a Invasão dos Objetos Inteligentes",
             description: 'A linguagem Python oferece vários mecanismos para personalizar a criação de objetos, bem como o acesso a seus atributos. Esta apresentação mostra exemplos ao vivo de alguns dos principais meios que o Python dispõe para acrescentar capacidades à hierarquias de classes - permitindo a criação de mapeadores objeto-relacionais, introspectar bibliotecas e objetos nativos mapeados para Python, permitir anotações e desenvolvimento "orientado a aspectos", computação "lazy" e matemática simbólica dentre outras funcionalidades. O trabalho passa pela demonstração e explicação dos "decorators" em Python, como funcionam as "properties", e o mecanismo utilizado pela linguagem para o uso de métodos de objetos: os "descriptors". Os objetivos da palestra são: esclarecer como os principais frameworks, ORMs, e bibliotecas em Python podem fazer suas  "mágicas", aparentemente  mudando o comportamento da linguagem;  e dar idéias de como se implementar técnicas semelhantes em sistemas próprios.',
             tags: ['Black'],
-            speaker: 'João S. O. Bueno'
+            speaker: 'João S. O. Bueno',
+            slides: 'https://github.com/jsbueno/intelligent_objects/'
           }       
         ]
       },
@@ -216,13 +218,15 @@ module.exports = {
             name: "Desbravando Web Components",
             description: 'Descubra como esse conceito formado por cinco novas especificações (Templates, Decorators, Shadow DOM, Custom Elements, Imports) irá revolucionar o modo como desenvolvemos e interagimos na web. Com ferramentas como Polymer e X-Tag, podemos começar a tirar proveito desta nova tecnologia hoje. Vamos dar uma olhada em alguns dos elementos surpreendentes que já estão sendo produzidos, e explorar como você pode começar a aproveitar-los em seus próprios projetos.',
             tags: ['Black'],
-            speaker: 'Mateus Ortiz'
+            speaker: 'Mateus Ortiz',
+            slides: 'https://speakerdeck.com/mateusortiz/desbravando-web-components'
           },
           {
             name: "Tunando seu código Ruby",
             description: 'Você acha que não tem problemas de performance na sua aplicação? Nessa talk vou mostrar alguns métodos de benchmark/profilling para você descobrir como tunar a sua aplicação Ruby/Rails. Alem de mostrar códigos que utilizamos no dia-dia que podem comprometer a performance da sua aplicação.',
             tags: ['Black'],
-            speaker: 'André Luis Anastácio'
+            speaker: 'André Luis Anastácio',
+            slides: 'https://speakerdeck.com/andreanastacio/tunando-o-seu-codigo-ruby'
           },
         ]
       },
@@ -249,7 +253,8 @@ module.exports = {
             name: "Programando a Felicidade",
             description: 'Bate papo sobre envolvimento com a comunidade Python e como isso impactou minha vida de maneiras inesperadas, me levando a uma experiência de trabalhar apenas 2 dias por semana no último ano e meio, viajar para 5 estados do Brasil e estar com passagem marcada para conferência no Canadá. Afinal, é possível isso sem ser rico? Apareça e contribua com a discussão ;)',
             tags: ['Red'],
-            speaker: 'Renzo Nuccitelli'
+            speaker: 'Renzo Nuccitelli',
+            slides: 'https://drive.google.com/file/d/0B2FeB263eKwkQVNYWDhEdF9Eclk/view?usp=sharing'
           }
         ]
       },
@@ -293,7 +298,8 @@ module.exports = {
             name: "Girando Pratos: Concorrência com Futures em Python",
             description: 'Novidades como o módulo `concurrent.futures`, delegação de co-rotinas com `yield from` e o módulo `asyncio` representam um capítulo novo na evolução de Python, e são as melhores razões para migrar para Python 3. Esta palestra mostrará como essas ferramentas tornam a programação concorrente acessível até mesmo para programadores casuais, com aumentos dramáticos de desempenho em clientes e servidores na rede.',
             tags: ['Black'],
-            speaker: 'Luciano Ramalho'
+            speaker: 'Luciano Ramalho',
+            slides: 'https://speakerdeck.com/ramalho/girando-pratos-concorrencia-moderna-em-python'
           }
         ]
       },
@@ -304,7 +310,8 @@ module.exports = {
             name: "Usando Ruby em (quase) qualquer lugar",
             description: 'Ano passado foi lançada a primeira versão estável do mruby, um interpretador mais leve e embedável da linguagem de programação Ruby. No entanto, ainda é difícil encontrar tutoriais mais completos ou exemplos bem documentados, sobre como de fato utilizá-lo. O objetivo desta palestra, que será bem prática, é ensinar como criar extensões (mrbgems) e demonstrar uma aplicação completa que usa Ruby sem que a máquina do usuário precise ter um interpretador instalado.',
             tags: ['Red'],
-            speaker: 'Oscar Esgalha'
+            speaker: 'Oscar Esgalha',
+            slides: 'https://speakerdeck.com/oesgalha/usando-ruby-em-quase-qualquer-lugar'
           },
           {
             name: "React e Flux: uma nova abordagem pra aplicações de alto desempenho",
