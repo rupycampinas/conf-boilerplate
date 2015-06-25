@@ -272,7 +272,8 @@ module.exports = {
             name: "Como aumentar o desempenho de sua aplicação com Python",
             description: 'Esta palestra irá abordar técnicas para identificar problemas e utilizar melhor o hardware que temos hoje utilizando Python bem como mostrar o que temos disponível atualmente auxiliando quem busca maior desempenho em sua aplicação.',
             tags: ['Black'],
-            speaker: 'Leandro Zanotto'
+            speaker: 'Leandro Zanotto',
+            slides: 'http://www.slideshare.net/leandronz/palestra-hpc-python'
           }
         ]
       },
@@ -292,7 +293,8 @@ module.exports = {
             name: "Meteoro de pegasuuus! Desenvolvendo aplicações com Meteor.js",
             description: 'O que é esse framework que o pessoal anda falando por ai? É node mesmo ou bruxaria realtime? Nessa palestra vou explicar como funciona o Meteor com sua dinâmica própria e "inovadora", ensinar como criar uma aplicação, seus prós e contras e tirar dúvidas',
             tags: ['Red'],
-            speaker: 'Julio Marins'
+            speaker: 'Julio Marins',
+            slides: 'http://www.slideshare.net/JulioAntonioMendonad/palestra-meteor'
           },
           {
             name: "Girando Pratos: Concorrência com Futures em Python",
