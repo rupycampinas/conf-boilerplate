@@ -200,7 +200,8 @@ module.exports = {
             description: 'O Rails ao longo dos últimos anos se tornou uma plataforma bastante sólida e respeitada. E boa parte desse sucesso é atribuido a uma comunidade inovadora, vibrante e bem "opinionada". Como consequência, hoje temos um vasto leque de bibliotecas, padrões de projeto, convenções e boas práticas à nossa mão. Porém, quando não somos criteriosos, todos esses recursos podem facilmente trazer uma grande dor-de-cabeça: o inferno da manutenção. Complexidade desnecessária, alto acoplamento, indireção, todos esses fatores acabam nos atrapalhando quando estamos evoluindo nosso software. Nesta palestra visitaremos alguns exemplos reais desses problemas e aprenderemos como enxergar além para evitá-los, trazendo de volta a tranquilidade ao nosso dia-a-dia de desenvolvimento.',
             tags: ['Red'],
             speaker: 'Rafael França',
-            slides: 'https://speakerdeck.com/rafaelfranca/ruby-alem-dos-trilhos'
+            slides: 'https://speakerdeck.com/rafaelfranca/ruby-alem-dos-trilhos',
+            video: 'http://www.infoq.com/br/presentations/ruby-alem-dos-trilhos'
           },
           {
             name: "Python e a Invasão dos Objetos Inteligentes",
@@ -219,7 +220,8 @@ module.exports = {
             description: 'Descubra como esse conceito formado por cinco novas especificações (Templates, Decorators, Shadow DOM, Custom Elements, Imports) irá revolucionar o modo como desenvolvemos e interagimos na web. Com ferramentas como Polymer e X-Tag, podemos começar a tirar proveito desta nova tecnologia hoje. Vamos dar uma olhada em alguns dos elementos surpreendentes que já estão sendo produzidos, e explorar como você pode começar a aproveitar-los em seus próprios projetos.',
             tags: ['Black'],
             speaker: 'Mateus Ortiz',
-            slides: 'https://speakerdeck.com/mateusortiz/desbravando-web-components'
+            slides: 'https://speakerdeck.com/mateusortiz/desbravando-web-components',
+            video: 'http://www.infoq.com/br/presentations/desbravando-web-components'
           },
           {
             name: "Tunando seu código Ruby",
@@ -254,7 +256,8 @@ module.exports = {
             description: 'Bate papo sobre envolvimento com a comunidade Python e como isso impactou minha vida de maneiras inesperadas, me levando a uma experiência de trabalhar apenas 2 dias por semana no último ano e meio, viajar para 5 estados do Brasil e estar com passagem marcada para conferência no Canadá. Afinal, é possível isso sem ser rico? Apareça e contribua com a discussão ;)',
             tags: ['Red'],
             speaker: 'Renzo Nuccitelli',
-            slides: 'https://drive.google.com/file/d/0B2FeB263eKwkQVNYWDhEdF9Eclk/view?usp=sharing'
+            slides: 'https://drive.google.com/file/d/0B2FeB263eKwkQVNYWDhEdF9Eclk/view?usp=sharing',
+            video: 'http://www.infoq.com/br/presentations/programando-a-felicidade'
           }
         ]
       },
@@ -301,7 +304,8 @@ module.exports = {
             description: 'Novidades como o módulo `concurrent.futures`, delegação de co-rotinas com `yield from` e o módulo `asyncio` representam um capítulo novo na evolução de Python, e são as melhores razões para migrar para Python 3. Esta palestra mostrará como essas ferramentas tornam a programação concorrente acessível até mesmo para programadores casuais, com aumentos dramáticos de desempenho em clientes e servidores na rede.',
             tags: ['Black'],
             speaker: 'Luciano Ramalho',
-            slides: 'https://speakerdeck.com/ramalho/girando-pratos-concorrencia-moderna-em-python'
+            slides: 'https://speakerdeck.com/ramalho/girando-pratos-concorrencia-moderna-em-python',
+            video: 'http://www.infoq.com/br/presentations/concorrencia-com-futures-em-python'
           }
         ]
       },

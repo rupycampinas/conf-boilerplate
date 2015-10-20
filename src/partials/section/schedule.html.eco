@@ -43,11 +43,14 @@
                       <p class="schedule-description">
                         <%= s.description %>
                       </p>
-                      <% if s.slides: %>
-                        <p>
+                      <p>
+                        <% if s.slides: %>
                           <a href="<%= s.slides %>" target="_blank" rel="external nofollow" class="tags black">Slides</a>
-                        </p>
-                      <% end %>  
+                        <% end %>  
+                        <% if s.video: %>
+                          <a href="<%= s.video %>" target="_blank" rel="external nofollow" class="tags red">Vídeo</a>
+                        <% end %>  
+                      </p>
                     </li>
                   <% end %>
                 </ul>
