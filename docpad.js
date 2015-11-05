@@ -249,7 +249,8 @@ module.exports = {
             description: 'Quando um produto cresce, um dos maiores desafios é como evoluir a arquitetura de maneira sustentável. Nesta palestra, será apresentado como a plataforma criada para o Globo.tv cresceu e evoluiu com o projeto Globosat Play. Entre os desafios, como permitir que mais de um time trabalhe na mesma plataforma, como compartilhar componentes e como atualizar um projeto sem quebrar o outro.',
             tags: ['Black'],
             speaker: 'Guilherme Garnier',
-            slides: 'http://ggarnier.github.io/evolucao-arquitetura'
+            slides: 'http://ggarnier.github.io/evolucao-arquitetura',
+            video: 'http://www.infoq.com/br/presentations/a-evolucao-de-uma-arquitetura-distribuida'
           },    
           {                                                                                                                                                                                                                                                                                                                                                                           
             name: "Programando a Felicidade",
@@ -297,7 +298,8 @@ module.exports = {
             description: 'O que é esse framework que o pessoal anda falando por ai? É node mesmo ou bruxaria realtime? Nessa palestra vou explicar como funciona o Meteor com sua dinâmica própria e "inovadora", ensinar como criar uma aplicação, seus prós e contras e tirar dúvidas',
             tags: ['Red'],
             speaker: 'Julio Marins',
-            slides: 'http://www.slideshare.net/JulioAntonioMendonad/palestra-meteor'
+            slides: 'http://www.slideshare.net/JulioAntonioMendonad/palestra-meteor',
+            video: 'http://www.infoq.com/br/presentations/desenvolvendo-aplicacoes-com-meteor-js'
           },
           {
             name: "Girando Pratos: Concorrência com Futures em Python",
@@ -317,13 +319,15 @@ module.exports = {
             description: 'Ano passado foi lançada a primeira versão estável do mruby, um interpretador mais leve e embedável da linguagem de programação Ruby. No entanto, ainda é difícil encontrar tutoriais mais completos ou exemplos bem documentados, sobre como de fato utilizá-lo. O objetivo desta palestra, que será bem prática, é ensinar como criar extensões (mrbgems) e demonstrar uma aplicação completa que usa Ruby sem que a máquina do usuário precise ter um interpretador instalado.',
             tags: ['Red'],
             speaker: 'Oscar Esgalha',
-            slides: 'https://speakerdeck.com/oesgalha/usando-ruby-em-quase-qualquer-lugar'
+            slides: 'https://speakerdeck.com/oesgalha/usando-ruby-em-quase-qualquer-lugar',
+            video: 'http://www.infoq.com/br/presentations/usando-ruby-em-qualquer-lugar'
           },
           {
             name: "React e Flux: uma nova abordagem pra aplicações de alto desempenho",
             description: 'React é uma biblioteca JavaScript para criação de interfaces de alto desempenho baseadas em componentes. Flux é uma arquitetura para desenvolvimento de aplicações que complementa o React. O objetivo dessa palestra é apresentar as tecnologias de forma prática e mostrar como elas podem ser empregadas no seu próximo projeto.',
             tags: ['Red'],
-            speaker: 'Cássio Zen'
+            speaker: 'Cássio Zen',
+            video: 'http://www.infoq.com/br/presentations/react-e-flux'
           }
         ]
       },
