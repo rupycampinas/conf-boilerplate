@@ -208,7 +208,8 @@ module.exports = {
             description: 'A linguagem Python oferece vários mecanismos para personalizar a criação de objetos, bem como o acesso a seus atributos. Esta apresentação mostra exemplos ao vivo de alguns dos principais meios que o Python dispõe para acrescentar capacidades à hierarquias de classes - permitindo a criação de mapeadores objeto-relacionais, introspectar bibliotecas e objetos nativos mapeados para Python, permitir anotações e desenvolvimento "orientado a aspectos", computação "lazy" e matemática simbólica dentre outras funcionalidades. O trabalho passa pela demonstração e explicação dos "decorators" em Python, como funcionam as "properties", e o mecanismo utilizado pela linguagem para o uso de métodos de objetos: os "descriptors". Os objetivos da palestra são: esclarecer como os principais frameworks, ORMs, e bibliotecas em Python podem fazer suas  "mágicas", aparentemente  mudando o comportamento da linguagem;  e dar idéias de como se implementar técnicas semelhantes em sistemas próprios.',
             tags: ['Black'],
             speaker: 'João S. O. Bueno',
-            slides: 'https://github.com/jsbueno/intelligent_objects/'
+            slides: 'https://github.com/jsbueno/intelligent_objects/',
+            video: 'http://www.infoq.com/br/presentations/python-e-a-invasao-dos-objetos-inteligentes'
           }       
         ]
       },
@@ -228,7 +229,8 @@ module.exports = {
             description: 'Você acha que não tem problemas de performance na sua aplicação? Nessa talk vou mostrar alguns métodos de benchmark/profilling para você descobrir como tunar a sua aplicação Ruby/Rails. Alem de mostrar códigos que utilizamos no dia-dia que podem comprometer a performance da sua aplicação.',
             tags: ['Black'],
             speaker: 'André Luis Anastácio',
-            slides: 'https://speakerdeck.com/andreanastacio/tunando-o-seu-codigo-ruby'
+            slides: 'https://speakerdeck.com/andreanastacio/tunando-o-seu-codigo-ruby',
+            video: 'http://www.infoq.com/br/presentations/tunando-seu-codigo-ruby'
           },
         ]
       },
@@ -270,14 +272,16 @@ module.exports = {
             description: 'Mesmo sendo um Rubista não significa que não estamos prestando atenção às novas ondas de linguagens. Nos últimos anos vimos um crescimento no nascimento de novas linguagens, desde Groovy, Scala, Clojure, GoLang, Swift, Rust, Elixir, isso sem contar o renascimento do Javascript. De onde vem essas linguagens? Por que elas existem? Quais devemos prestar atenção? É impossível responder satisfatoriamente a todas essa perguntas, mas vamos tentar pelo menos trazer alguma perspectiva.',
             tags: ['Black'],
             speaker: 'Fabio Akita',
-            slides: 'http://www.slideshare.net/akitaonrails/languagesmaplatestreducefuturesortfirst-rupy-campinas-2015'
+            slides: 'http://www.slideshare.net/akitaonrails/languagesmaplatestreducefuturesortfirst-rupy-campinas-2015',
+            video: 'http://www.infoq.com/br/presentations/novas-linguagens-o-que-vem-depois-do-ruby'
           },                                                                                  
           {
             name: "Como aumentar o desempenho de sua aplicação com Python",
             description: 'Esta palestra irá abordar técnicas para identificar problemas e utilizar melhor o hardware que temos hoje utilizando Python bem como mostrar o que temos disponível atualmente auxiliando quem busca maior desempenho em sua aplicação.',
             tags: ['Black'],
             speaker: 'Leandro Zanotto',
-            slides: 'http://www.slideshare.net/leandronz/palestra-hpc-python'
+            slides: 'http://www.slideshare.net/leandronz/palestra-hpc-python',
+            video: 'http://www.infoq.com/br/presentations/como-aumentar-o-desempenho-de-sua-aplicacao-com-python'
           }
         ]
       },
