@@ -1,62 +1,68 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<div class="schedule-tbl">
-  <table>
-    <tbody>
-      <% for slot in @schedule: %>
-        <% if slot.presentation: %>
-          <tr>
-            <td class="schedule-time"><%= slot.presentation.time %></td>
-            <td class="schedule-slot">
-            <% if slot.photo: %>
-              <span class="speaker-photo">
-                <img class="photo" src="<%= slot.photo %>" alt="<%= slot.name %>">
-              </span>
-            <% end %>
-            <%= slot.presentation.title %>
-              <span class="speakers-company"><%= slot.company %></span>
-            </td>
-            <td class="schedule-description"><%= slot.presentation.description %></td>
-          </tr>
-        <% else: %>
-          <tr class="schedule-other">
-            <td class="schedule-time"><%= slot.time %></td>
-            <td class="schedule-slot" colspan="2">
-              <% if slot.slots: %>
-                <ul>
-                  <% for s in slot.slots: %>
-                    <li>
-                      <p>
-                        <strong>
-                          <%= s.name %>
-                        </strong>
-                        <% if s.tags: %>
-                          <% for tag in s.tags: %>
-                            <!-- <span class="tags <%= tag.toLowerCase() %>"><%= tag %></span> -->
-                          <% end %>
-                        <% end %>  
-                      </p>
-                      <p>
-                        <a href="#<%= s.speaker %>">
-                          <%= s.speaker %>
-                        </a>
-                      </p>
-                      <p class="schedule-description">
-                        <%= s.description %>
-                      </p>
-                      <% if s.slides: %>
-                        <p>
-                          <a href="<%= s.slides %>" target="_blank" rel="external nofollow" class="tags black">Slides</a>
-                        </p>
-                      <% end %>  
-                    </li>
-                  <% end %>
-                </ul>
-              <% end %>
-            </td>
-          </tr>
-        <% end %>
-      <% end %>
 
-    </tbody>
-  </table>
-</div>
+<% if @schedule.length > 0: %>
+
+  <div class="schedule-tbl">
+    <table>
+      <tbody>
+        <% for slot in @schedule: %>
+          <% if slot.presentation: %>
+            <tr>
+              <td class="schedule-time"><%= slot.presentation.time %></td>
+              <td class="schedule-slot">
+              <% if slot.photo: %>
+                <span class="speaker-photo">
+                  <img class="photo" src="<%= slot.photo %>" alt="<%= slot.name %>">
+                </span>
+              <% end %>
+              <%= slot.presentation.title %>
+                <span class="speakers-company"><%= slot.company %></span>
+              </td>
+              <td class="schedule-description"><%= slot.presentation.description %></td>
+            </tr>
+          <% else: %>
+            <tr class="schedule-other">
+              <td class="schedule-time"><%= slot.time %></td>
+              <td class="schedule-slot" colspan="2">
+                <% if slot.slots: %>
+                  <ul>
+                    <% for s in slot.slots: %>
+                      <li>
+                        <p>
+                          <strong>
+                            <%= s.name %>
+                          </strong>
+                          <% if s.tags: %>
+                            <% for tag in s.tags: %>
+                              <!-- <span class="tags <%= tag.toLowerCase() %>"><%= tag %></span> -->
+                            <% end %>
+                          <% end %>  
+                        </p>
+                        <p>
+                          <a href="#<%= s.speaker %>">
+                            <%= s.speaker %>
+                          </a>
+                        </p>
+                        <p class="schedule-description">
+                          <%= s.description %>
+                        </p>
+                        <% if s.slides: %>
+                          <p>
+                            <a href="<%= s.slides %>" target="_blank" rel="external nofollow" class="tags black">Slides</a>
+                          </p>
+                        <% end %>  
+                      </li>
+                    <% end %>
+                  </ul>
+                <% end %>
+              </td>
+            </tr>
+          <% end %>
+        <% end %>
+
+      </tbody>
+    </table>
+  </div>
+<% else: %>
+  <p style="margin-bottom: 0">Em breve</p>
+<% end %>
