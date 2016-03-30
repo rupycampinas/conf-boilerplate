@@ -40,9 +40,10 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Veja como foi",
+        text: "Em breve",
+        link: 'javascript:void(0)'
         //link: "http://eventick.com.br"
-        link: "https://www.facebook.com/media/set/?set=a.1459820534312838.1073741830.1387301224898103&type=3"
+        //link: "https://www.facebook.com/media/set/?set=a.1459820534312838.1073741830.1387301224898103&type=3"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -82,16 +83,16 @@ module.exports = {
     },
 
     speakers: [
-      // {
-      //   name: 'André Luis Anastácio',
-      //   description: 'Desenvolvedor Ruby, apaixonado por game development e Clojure.',
-      //   photo: 'themes/yellow-swan/img/andre.jpg'
-      // },
-      // {
-      //   name: 'Capi Etheriel',
-      //   description: 'Contribuidor de diversas tecnologias livres e abertas para a web, entre elas Scrapy, Drupal e CasperJS. Como ativista por dados abertos, adora raspar dados da web junto à rede Transparência Hacker. Também desenvolve jogos de tabuleiro com a Quequeré Jogos e integra a trupe do Ônibus Hacker.',
-      //   photo: 'themes/yellow-swan/img/capi.jpg'
-      // },
+      {
+        name: 'Guilherme Carreiro',
+        description: 'Descrição em breve',
+        photo: 'themes/yellow-swan/img/guilherme-carreiro.jpg'
+      },
+      {
+        name: 'Roi Avidan',
+        description: 'Descrição em breve',
+        photo: 'themes/yellow-swan/img/roi.jpg'
+      },
       // {
       //   name: 'Cássio Zen',
       //   description: 'Trabalha com programação há mais de 10 anos tendo atuado no Brasil e nos EUA desenvolvendo projetos para grandes marcas como Google, Coca-Cola, Itaú, Unilever entre outros. Atualmente trabalha como consultor após ter sua startup adquirida no final de 2014 e até agora não decorou o caminho de casa pro trabalho.',
@@ -174,24 +175,23 @@ module.exports = {
       //     }
       //   ]
       // },
-      // {
-      //   time: "09:00",
-      //   slots: [
-      //     {
-      //       name: "AMS e Rails, construindo APIs com s2",
-      //       description: 'Muitas pessoas tem utilizado Rails para construir APIs externas e internas, mas construir uma API de boa qualidade pode ser difícil, e performance é um elemento chave para esse objetivo. Gostaria de dividir algumas das minhas histórias construindo APIs, e compartilhar como o Active Model Serializer, component do Rails-API me ajudou nesse processo. AMS tem sido utilizado por milhares de aplicações ao redor do mundo, ajudando a trazer convenções para a criação de APIs e manipulações de JSON. Nessa palestra vou falar também sobre a nova versão do AMS, novas funcionalidades, o futuro e como temos nos esforçado pela possibilidade de estar integrado no Rails 5.',
-      //       tags: ['Black'],
-      //       speaker: 'João Moura',
-      //       slides: 'https://speakerdeck.com/joaomdmoura/ams-api-rails-and-a-developer-a-love-story'
-      //     },
-      //     {
-      //       name: "O segredo dos Web Scrapers",
-      //       description: 'Os dados estão todos na web. Alguns projetos oferecem APIs especializadas, mas você já tem toda a interface que precisa no HTML. Pegar os dados da web pode ser uma delícia usando tecnologias especializadas: nossas favoritas são o framework Scrapy (Python) e o browser programático CasperJS. Em ambas as tecnologias, veremos as linguagens dinâmicas dando o seu melhor para trabalhar com programação funcional e retornar os dados que nos interessam!',
-      //       tags: ['Red'],
-      //       speaker: 'Capi Etheriel'
-      //     },
-      //   ]
-      // },
+      {
+        time: "a definir",
+        slots: [
+          {
+            name: "Action Cable em ação",
+            description: 'Entenda o Action Cable, a API que mais se destaca dentre as novidades do Rails 5, trazendo um conjunto novo de abstrações ao framework e uma série novidades que impactarão diretamente na comunidade Ruby em 2016.',
+            tags: ['Black'],
+            speaker: 'Guilherme Carreiro'
+          },
+          {
+            name: "Tornado/Python como backend para aplicações com alta carga de requisições",
+            description: 'Python é uma das linguagens de programação mais usados no mundo em geral e para web em específico. Tornado é um servidor web não bloqueante feito em Python originalmente desenvolvido pela FriendFeed (comprada pelo Facebook). No Terra utilizamos estas tecnologias nos nossos sistemas de backend para atender uma carga enorme de requisições e para personalizar conteúdo. Nesta palestra vou apresentar um use case sobre um dos componentes na nossa arquitetura de entrega – um processador de SSIs inteligente, rápido e modular, feito em Tornado/Python – o “Montador”.',
+            tags: ['Red'],
+            speaker: 'Roi Avidan'
+          },
+        ]
+      },
       // {
       //   time: "10:00",
       //   slots: [
