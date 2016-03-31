@@ -40,8 +40,8 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Em breve",
-        link: 'javascript:void(0)'
+        text: "Inscreva-se",
+        link: 'https://www.eventbrite.com.br/e/rupy-campinas-tickets-24305868507'
         //link: "http://eventick.com.br"
         //link: "https://www.facebook.com/media/set/?set=a.1459820534312838.1073741830.1387301224898103&type=3"
     },
