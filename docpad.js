@@ -83,11 +83,11 @@ module.exports = {
     },
 
     speakers: [
-      {
-        name: 'Alex Braha Stoll',
-        description: 'Alex ama aprender e criar. A maior parte do tempo programa em Ruby e em JavaScript, mas também tem se interessado por Android e Elixir. Atualmente, é Lead Software Engineer no Carrinho em Casa.',
-        photo: 'themes/yellow-swan/img/alex-stoll.jpg'
-      },
+      // {
+      //   name: 'Alex Braha Stoll',
+      //   description: 'Alex ama aprender e criar. A maior parte do tempo programa em Ruby e em JavaScript, mas também tem se interessado por Android e Elixir. Atualmente, é Lead Software Engineer no Carrinho em Casa.',
+      //   photo: 'themes/yellow-swan/img/alex-stoll.jpg'
+      // },
       {
         name: 'Andrew Rosa',
         description: 'Atua na HE:labs ajudando seus clientes a construir produtos incríveis. Divide seu tempo com s-expressions e compiladores, enquanto sonha com o retorno das Lisp Machines.',

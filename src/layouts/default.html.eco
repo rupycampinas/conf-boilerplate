@@ -31,6 +31,13 @@
 <body>
 
   <div class="global">
+    <div class="ribbon-wrapper">
+       <div class="ribbon">
+        <a href="/2015">
+          <span>Edição anterior</span>
+        </a>
+      </div>
+    </div>
 
     <%-@partial('nav.html.eco', @)%>
     <%-@partial('header.html.eco', @)%>

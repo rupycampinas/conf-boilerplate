@@ -7,7 +7,60 @@ html {
   background:#F6F6F6;
   font:normal normal 10px/1.2em 'Raleway', helvetica, arial, sans-serif;
   color:#777;
+}
 
+.ribbon-wrapper {
+  width: 200px; height: 150px;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 0;
+}
+.ribbon {
+  position: absolute;
+  right: -3px; top: -14px;
+  z-index: 1;
+  overflow: hidden;
+  width: 120px; 
+  height: 150px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 28px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 177px;
+  height: 27px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#F5F5F5 0%, #F5F5F5 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 45px; 
+  right: -41px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #F5F5F5;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #F5F5F5;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #F5F5F5;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #F5F5F5;
 }
 
 /* =============================================================================
