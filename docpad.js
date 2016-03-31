@@ -84,6 +84,26 @@ module.exports = {
 
     speakers: [
       {
+        name: 'Alex Braha Stoll',
+        description: 'Alex ama aprender e criar. A maior parte do tempo programa em Ruby e em JavaScript, mas também tem se interessado por Android e Elixir. Atualmente, é Lead Software Engineer no Carrinho em Casa.',
+        photo: 'themes/yellow-swan/img/alex-stoll.jpg'
+      },
+      {
+        name: 'Andrew Rosa',
+        description: 'Atua na HE:labs ajudando seus clientes a construir produtos incríveis. Divide seu tempo com s-expressions e compiladores, enquanto sonha com o retorno das Lisp Machines.',
+        photo: 'themes/yellow-swan/img/andrew.jpg'
+      },
+      {
+        name: 'Eduardo Matos',
+        description: 'Desenvolvedor há 13 anos, começou a trabalhar como freelance e professor numa escola de informática. Trabalha como desenvolvedor fullstack com especialidade em desenvolvimento front-end, mas ama programar de JavaScript a Ruby.',
+        photo: 'themes/yellow-swan/img/eduardo-matos.jpg'
+      },
+      {
+        name: 'Emilio Simoni',
+        description: 'Desenvolvedor e pesquisador de segurança há 17 anos, atualmente aplica Data Scientist e machine learning na área de segurança. Trabalhou na área de tecnologias de proteção em empresas como GAS Tecnologia, Diebold e atualmente PSafe. Participa ativamente de competições de machine learning, e tem como principal hobby atuar como Coach e dar treinamentos direcionados ao desenvolvimento de pessoas e equipes.',
+        photo: 'themes/yellow-swan/img/emilio.jpg'
+      },
+      {
         name: 'Guilherme Carreiro',
         description: 'Descrição em breve',
         photo: 'themes/yellow-swan/img/guilherme-carreiro.jpg'
@@ -93,11 +113,11 @@ module.exports = {
         description: 'Descrição em breve',
         photo: 'themes/yellow-swan/img/roi.jpg'
       },
-      // {
-      //   name: 'Cássio Zen',
-      //   description: 'Trabalha com programação há mais de 10 anos tendo atuado no Brasil e nos EUA desenvolvendo projetos para grandes marcas como Google, Coca-Cola, Itaú, Unilever entre outros. Atualmente trabalha como consultor após ter sua startup adquirida no final de 2014 e até agora não decorou o caminho de casa pro trabalho.',
-      //   photo: 'themes/yellow-swan/img/cassio.jpg'
-      // },
+      {
+        name: 'Talysson de Oliveira Cassiano',
+        description: 'Desenvolvedor front-end na Codeminer42 e graduado em Ciência da Computação, tem grande interesse em NodeJS, ReactJS e arquiteturas de sistemas web.',
+        photo: 'themes/yellow-swan/img/talysson.jpg'
+      },
       // {
       //   name: 'Fabio Akita',
       //   description: 'Co-fundador da Codeminer 42, empresa de desenvolvimento de software principalmente para startups. Desde 2008 é o criador e organizador do Rubyconf Brasil, uma das maiores conferências de tecnologia da América Latina. Tem experiência de 20 anos no mercado de software, tendo passado pelo mercado de grandes agências, consultoria SAP corporativo e pelo primeiro boom de startups em 2000.',
@@ -189,6 +209,52 @@ module.exports = {
             description: 'Python é uma das linguagens de programação mais usados no mundo em geral e para web em específico. Tornado é um servidor web não bloqueante feito em Python originalmente desenvolvido pela FriendFeed (comprada pelo Facebook). No Terra utilizamos estas tecnologias nos nossos sistemas de backend para atender uma carga enorme de requisições e para personalizar conteúdo. Nesta palestra vou apresentar um use case sobre um dos componentes na nossa arquitetura de entrega – um processador de SSIs inteligente, rápido e modular, feito em Tornado/Python – o “Montador”.',
             tags: ['Red'],
             speaker: 'Roi Avidan'
+          },
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [
+          {
+            name: "Estratégias de manipulação do DOM",
+            description: 'React, Angular 2, Ember 2... O que esses frameworks têm em comum? Todos estão utilizando novas técnicas de manipulação do DOM da forma mais performática possível. Vamos fazer um overview dos algoritmos usados em cada um desses frameworks e conhecer o que há de novo e mais veloz.',
+            tags: ['Black'],
+            speaker: 'Eduardo Matos'
+          },
+          {
+            name: "Ruby on Background",
+            description: 'No ecossistema Ruby, há várias gems, técnicas e padrões que podem ser utilizados para se fazer processamento em background. Nesta palestra, cobriremos desde cenários mais simples até cenários mais complexos (por exemplo, como abusar de código concorrente mesmo no Ruby MRI). O foco será Ruby on Rails no Heroku com Sidekiq, no entanto haverá conteúdo útil para qualquer desenvolvedor Ruby.',
+            tags: ['Black'],
+            speaker: 'Alex Braha Stoll'
+          },
+          
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [
+          {
+            name: "Prevendo futuro com machine learn",
+            description: 'O que você vai fazer amanhã? E nos próximos meses? Para onde vai, o que vai comprar... Você pode até não saber, mas com machine learn é possível prever suas ações, gostos e comportamentos. Estamos saindo da era da busca para era da recomendação, onde é possível identificar o que você quer antes mesmo de você pensar sobre isso. Venha descobrir como machine learn funciona, e como ele consegue fazer isso.',
+            tags: ['Black'],
+            speaker: 'Emilio Simoni'
+          },
+          {
+            name: "O Último Transpiler Que Você Irá Precisar",
+            description: 'A era dos transpilers renovou toda a comunidade JavaScript. A modernização da linguagem instigou a criação de ferramentas de desenvolvimento. Floresceu novas abstrações para assíncrona e imutabilidade. Mas infelizmente também criou uma bagunça. E se pudéssemos unir tudo isso numa linguagem expressiva aliada ao Estado da Arte de minificadores e otimizadores de JavaScript? Apresento-lhes ClojureScript.',
+            tags: ['Red'],
+            speaker: 'Andrew Rosa'
+          },
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [
+          {
+            name: "Mas que bagunça é essa, JavaScript?!",
+            description: 'Com o surgimento de mais e mais bibliotecas, ferramentas e frameworks para JavaScript tudo parece estar uma bagunça. Esta palestra visa mostrar que isso não é nada mais do que uma fase de transição de crescimento da comunidade JavaScript, além mostrar o que é o que, tipos de ferramentas, e como escolher qual delas usar em seu projeto.',
+            tags: ['Red'],
+            speaker: 'Talysson de Oliveira Cassiano'
           },
         ]
       },
