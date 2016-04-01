@@ -258,6 +258,39 @@ module.exports = {
           },
         ]
       },
+      {
+        time: "a definir",
+        slots: [
+          {
+           
+          },
+          {
+            
+          },
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [
+          {
+           
+          },
+          {
+            
+          },
+        ]
+      },
+      {
+        time: "a definir",
+        slots: [
+          {
+           
+          },
+          {
+            
+          },
+        ]
+      },
       // {
       //   time: "10:00",
       //   slots: [
