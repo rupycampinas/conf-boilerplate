@@ -89,6 +89,11 @@ module.exports = {
       //   photo: 'themes/yellow-swan/img/alex-stoll.jpg'
       // },
       {
+        name: 'Alex Braha Stoll',
+        description: 'Alex ama aprender e criar. A maior parte do tempo programa em Ruby e em JavaScript, mas também tem se interessado por Android e Elixir. Atualmente, é Lead Software Engineer no Carrinho em Casa.',
+        photo: 'themes/yellow-swan/img/alex-stoll.jpg'
+      },
+      {
         name: 'Andrew Rosa',
         description: 'Atua na HE:labs ajudando seus clientes a construir produtos incríveis. Divide seu tempo com s-expressions e compiladores, enquanto sonha com o retorno das Lisp Machines.',
         photo: 'themes/yellow-swan/img/andrew.jpg'
@@ -105,8 +110,13 @@ module.exports = {
       },
       {
         name: 'Guilherme Carreiro',
-        description: 'Descrição em breve',
+        description: 'Guilherme Carreiro é Software Craftsman na HE:labs e entusiasta de comunidades Open Source, contruibuindo em projetos como o OneBox e RuboCop. É agnóstico de tecnologias e trabalha com aplicações Ruby de alta performance.',
         photo: 'themes/yellow-swan/img/guilherme-carreiro.jpg'
+      },
+      {
+        name: 'Luiz Antonio de Menezes Filho',
+        description: 'Desenvolvedor Python apaixonado por programação. Formado na USP, trabalha atualmente com desenvolvimento web. Nas horas vagas empenha-se em fundar um hackerspace em São Carlos-SP.',
+        photo: 'themes/yellow-swan/img/luiz.jpg'
       },
       {
         name: 'Roi Avidan',
@@ -250,6 +260,12 @@ module.exports = {
       {
         time: "a definir",
         slots: [
+          {
+            name: "Testando sua aplicação web com py.test e Selenium",
+            description: 'Escrever testes automatizados para seu código é essencial para a criação de aplicações de qualidade. A palestra apresentará, na prática, como escrever testes unitários e funcionais para um simples e-commerce usando py.test e Selenium.',
+            tags: ['Red'],
+            speaker: 'Luiz Antonio de Menezes Filho'
+          },
           {
             name: "Mas que bagunça é essa, JavaScript?!",
             description: 'Com o surgimento de mais e mais bibliotecas, ferramentas e frameworks para JavaScript tudo parece estar uma bagunça. Esta palestra visa mostrar que isso não é nada mais do que uma fase de transição de crescimento da comunidade JavaScript, além mostrar o que é o que, tipos de ferramentas, e como escolher qual delas usar em seu projeto.',
