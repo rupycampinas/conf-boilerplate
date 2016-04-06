@@ -120,7 +120,7 @@ module.exports = {
       },
       {
         name: 'Roi Avidan',
-        description: 'Descrição em breve',
+        description: 'Desenvolvedor há mais de 20 anos, Full Stack nos últimos cinco. Formado em Eng. da Computação e Pós Graduado em Gerenciamento de Projetos. Atua no Terra Networks como Analista / Líder de Projetos (e Desenvolvedor de vez em quando). Trabalha principalmente com Python e JavaScript.',
         photo: 'themes/yellow-swan/img/roi.jpg'
       },
       {
