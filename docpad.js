@@ -119,6 +119,11 @@ module.exports = {
         photo: 'themes/yellow-swan/img/luiz.jpg'
       },
       {
+        name: 'Oscar Esgalha',
+        description: 'Hacker por hobby e profissão. Brinca de programar há 9 anos. Cientista da Computação pela Unicamp, trabalha com desenvolvimento web há 5 anos, atualmente como fullstack. Gosta muito de tecnologias abertas.',
+        photo: 'themes/yellow-swan/img/oscar.jpg'
+      },
+      {
         name: 'Roi Avidan',
         description: 'Desenvolvedor há mais de 20 anos, Full Stack nos últimos cinco. Formado em Eng. da Computação e Pós Graduado em Gerenciamento de Projetos. Atua no Terra Networks como Analista / Líder de Projetos (e Desenvolvedor de vez em quando). Trabalha principalmente com Python e JavaScript.',
         photo: 'themes/yellow-swan/img/roi.jpg'
@@ -278,7 +283,10 @@ module.exports = {
         time: "a definir",
         slots: [
           {
-           
+            name: "Concurrent Ruby",
+            description: 'Concurrent Ruby é uma gem que traz diversas funcionalidades de concorrência inspiradas em outras linguagens e adaptadas para o estilo ruby. Ela será uma dependência do Rails 5 (ActiveSupport) e já se mostra popular na comunidade. Descubra através de exemplos como e quais os benefícios em usá-la.',
+            tags: ['Red'],
+            speaker: 'Oscar Esgalha'
           },
           {
             
