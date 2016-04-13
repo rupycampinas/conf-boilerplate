@@ -109,6 +109,11 @@ module.exports = {
         photo: 'themes/yellow-swan/img/emilio.jpg'
       },
       {
+        name: 'Fabrício Ferrari de Campos',
+        description: 'Há 9 anos trabalhando na área de desenvolvimento de Software. Co-fundador da Vizir, uma Software Studio que há 6 anos entrega soluções "du caralho". Nos últimos anos tem trabalhado com Angular.JS, Node.JS e Rails.',
+        photo: 'themes/yellow-swan/img/fabricio-ferrari.jpg'
+      },
+      {
         name: 'Guilherme Carreiro',
         description: 'Guilherme Carreiro é Software Craftsman na HE:labs e entusiasta de comunidades Open Source, contruibuindo em projetos como o OneBox e RuboCop. É agnóstico de tecnologias e trabalha com aplicações Ruby de alta performance.',
         photo: 'themes/yellow-swan/img/guilherme-carreiro.jpg'
@@ -122,6 +127,11 @@ module.exports = {
         name: 'Oscar Esgalha',
         description: 'Hacker por hobby e profissão. Brinca de programar há 9 anos. Cientista da Computação pela Unicamp, trabalha com desenvolvimento web há 5 anos, atualmente como fullstack. Gosta muito de tecnologias abertas.',
         photo: 'themes/yellow-swan/img/oscar.jpg'
+      },
+      {
+        name: 'Renan Ranelli',
+        description: 'Em breve',
+        photo: 'themes/yellow-swan/img/renan-ranelli.jpg'
       },
       {
         name: 'Roi Avidan',
@@ -255,10 +265,10 @@ module.exports = {
             speaker: 'Emilio Simoni'
           },
           {
-            name: "O Último Transpiler Que Você Irá Precisar",
-            description: 'A era dos transpilers renovou toda a comunidade JavaScript. A modernização da linguagem instigou a criação de ferramentas de desenvolvimento. Floresceu novas abstrações para assíncrona e imutabilidade. Mas infelizmente também criou uma bagunça. E se pudéssemos unir tudo isso numa linguagem expressiva aliada ao Estado da Arte de minificadores e otimizadores de JavaScript? Apresento-lhes ClojureScript.',
+            name: "Rails em 2016, usar ou não usar? Eis a questão.",
+            description: 'Nos últimos anos muito se vem falando do futuro do Rails, principalmente devido a forte adoção do Node e SPAs. O objetivo da talk é apresentar alguns fatos ao redor do assunto, junto com opiniões da comunidade e um case prático com Rails 5, para que a pessoa possa sair da palestra com mais bases pra responder a perguntar: Rails em 2016, usar ou não usar?',
             tags: ['Red'],
-            speaker: 'Andrew Rosa'
+            speaker: 'Fabrício Ferrari de Campos'
           },
         ]
       },
@@ -272,10 +282,10 @@ module.exports = {
             speaker: 'Luiz Antonio de Menezes Filho'
           },
           {
-            name: "Mas que bagunça é essa, JavaScript?!",
-            description: 'Com o surgimento de mais e mais bibliotecas, ferramentas e frameworks para JavaScript tudo parece estar uma bagunça. Esta palestra visa mostrar que isso não é nada mais do que uma fase de transição de crescimento da comunidade JavaScript, além mostrar o que é o que, tipos de ferramentas, e como escolher qual delas usar em seu projeto.',
+            name: "Design de aplicações concorrentes: uma abordagem comparativa",
+            description: 'Nessa palestra vamos explorar abordagens para o design de aplicações concorrentes, avaliando performance, testabilidade e "compreensibilidade". Em particular, vamos comparar o design de uma aplicação exemplo em Ruby e Elixir.',
             tags: ['Red'],
-            speaker: 'Talysson de Oliveira Cassiano'
+            speaker: 'Renan Ranelli'
           },
         ]
       },
@@ -289,7 +299,10 @@ module.exports = {
             speaker: 'Oscar Esgalha'
           },
           {
-            
+            name: "O Último Transpiler Que Você Irá Precisar",
+            description: 'A era dos transpilers renovou toda a comunidade JavaScript. A modernização da linguagem instigou a criação de ferramentas de desenvolvimento. Floresceu novas abstrações para assíncrona e imutabilidade. Mas infelizmente também criou uma bagunça. E se pudéssemos unir tudo isso numa linguagem expressiva aliada ao Estado da Arte de minificadores e otimizadores de JavaScript? Apresento-lhes ClojureScript.',
+            tags: ['Red'],
+            speaker: 'Andrew Rosa'
           },
         ]
       },
@@ -297,7 +310,10 @@ module.exports = {
         time: "a definir",
         slots: [
           {
-           
+            name: "Mas que bagunça é essa, JavaScript?!",
+            description: 'Com o surgimento de mais e mais bibliotecas, ferramentas e frameworks para JavaScript tudo parece estar uma bagunça. Esta palestra visa mostrar que isso não é nada mais do que uma fase de transição de crescimento da comunidade JavaScript, além mostrar o que é o que, tipos de ferramentas, e como escolher qual delas usar em seu projeto.',
+            tags: ['Red'],
+            speaker: 'Talysson de Oliveira Cassiano'
           },
           {
             
