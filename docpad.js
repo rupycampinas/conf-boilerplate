@@ -114,6 +114,11 @@ module.exports = {
         photo: 'themes/yellow-swan/img/fabricio-ferrari.jpg'
       },
       {
+        name: 'George Guimarães',
+        description: 'Co-fundador da Plataformatec, uma consultoria de Elixir e Ruby. Seus tópicos favoritos no momento são: integração discreta, monolitos e picoserviços com Elixir.',
+        photo: 'themes/yellow-swan/img/george.jpg'
+      },
+      {
         name: 'Guilherme Carreiro',
         description: 'Guilherme Carreiro é Software Craftsman na HE:labs e entusiasta de comunidades Open Source, contruibuindo em projetos como o OneBox e RuboCop. É agnóstico de tecnologias e trabalha com aplicações Ruby de alta performance.',
         photo: 'themes/yellow-swan/img/guilherme-carreiro.jpg'
@@ -316,7 +321,10 @@ module.exports = {
             speaker: 'Talysson de Oliveira Cassiano'
           },
           {
-            
+            name: "Concorrência (e Elixir): o que isso muda pra você?",
+            description: 'Muito se fala sobre novas linguagens de programação. Quero falar sobre concorrência, que considero o grande próximo desafio que desenvolvedores web terão que lidar. Vou comentar sobre outros modelos de concorrência (inclusive sobre Python e Ruby) e mostrar onde esses modelos pecam. E vou mostrar como Elixir e Erlang estão muito bem posicionados para resolver esse problema com seus primitivos.',
+            tags: ['Red'],
+            speaker: 'George Guimarães'
           },
         ]
       },
