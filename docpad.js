@@ -483,9 +483,9 @@ module.exports = {
 
     gold_sponsors: [
       // {
-      //   name: "Eventioz",
-      //   logo: "themes/yellow-swan/img/eventioz.jpg",
-      //   url: "http://eventioz.com.br/"
+      //   name: "Codeminer42",
+      //   logo: "themes/yellow-swan/img/codeminer42.jpg",
+      //   url: "http://www.codeminer42.com/"
       // },
       // {
       //   name: "Caiena",
@@ -499,6 +499,11 @@ module.exports = {
 
     // List of Sponsors
     sponsors: [
+      {
+        name: "Codeminer42",
+        logo: "themes/yellow-swan/img/codeminer42.jpg",
+        url: "http://www.codeminer42.com/"
+      },
       // {
       //   name: "Eventick",
       //   logo: "themes/yellow-swan/img/sponsor.png",
