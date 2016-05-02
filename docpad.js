@@ -105,7 +105,7 @@ module.exports = {
       },
       {
         name: 'Emilio Simoni',
-        description: 'Desenvolvedor e pesquisador de segurança há 17 anos, atualmente aplica Data Scientist e machine learning na área de segurança. Trabalhou na área de tecnologias de proteção em empresas como GAS Tecnologia, Diebold e atualmente PSafe. Participa ativamente de competições de machine learning, e tem como principal hobby atuar como Coach e dar treinamentos direcionados ao desenvolvimento de pessoas e equipes.',
+        description: 'Desenvolvedor e pesquisador de segurança há 17 anos, atualmente aplica Data Science e machine learning na área de segurança. Trabalhou na área de tecnologias de proteção em empresas como GAS Tecnologia, Diebold e atualmente PSafe. Participa ativamente de competições de machine learning, e tem como principal hobby atuar como Coach e dar treinamentos direcionados ao desenvolvimento de pessoas e equipes.',
         photo: 'themes/yellow-swan/img/emilio.jpg'
       },
       {
