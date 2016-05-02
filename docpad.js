@@ -504,6 +504,11 @@ module.exports = {
         logo: "themes/yellow-swan/img/codeminer42.jpg",
         url: "http://www.codeminer42.com/"
       },
+      {
+        name: "Gravento",
+        logo: "themes/yellow-swan/img/gravento.jpg",
+        url: "https://gravento.com.br/"
+      },
       // {
       //   name: "Eventick",
       //   logo: "themes/yellow-swan/img/sponsor.png",
@@ -538,6 +543,11 @@ module.exports = {
 
     // List of Partners
     partners: [
+      {
+        name: "Dev na Estrada",
+        logo: "themes/yellow-swan/img/dne150.png",
+        url: "http://devnaestrada.com.br/"
+      },
       {
         name: "Designa",
         logo: "themes/yellow-swan/img/designa.jpg",
