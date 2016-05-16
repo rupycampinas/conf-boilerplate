@@ -135,7 +135,7 @@ module.exports = {
       },
       {
         name: 'Renan Ranelli',
-        description: 'Em breve',
+        description: 'Milhouse (também conhecido como Renan Ranelli) é engenheiro químico de formação e engenheiro de software por vocação. Atualmente trabalha full-time com Elixir, depois de longas temporadas com Ruby e C#.',
         photo: 'themes/yellow-swan/img/renan-ranelli.jpg'
       },
       {
@@ -264,8 +264,8 @@ module.exports = {
         time: "a definir",
         slots: [
           {
-            name: "Prevendo futuro com machine learn",
-            description: 'O que você vai fazer amanhã? E nos próximos meses? Para onde vai, o que vai comprar... Você pode até não saber, mas com machine learn é possível prever suas ações, gostos e comportamentos. Estamos saindo da era da busca para era da recomendação, onde é possível identificar o que você quer antes mesmo de você pensar sobre isso. Venha descobrir como machine learn funciona, e como ele consegue fazer isso.',
+            name: "Prevendo futuro com machine learning",
+            description: 'O que você vai fazer amanhã? E nos próximos meses? Para onde vai, o que vai comprar... Você pode até não saber, mas com machine learning é possível prever suas ações, gostos e comportamentos. Estamos saindo da era da busca para era da recomendação, onde é possível identificar o que você quer antes mesmo de você pensar sobre isso. Venha descobrir como machine learning funciona, e como ele consegue fazer isso.',
             tags: ['Black'],
             speaker: 'Emilio Simoni'
           },
@@ -519,11 +519,11 @@ module.exports = {
       //   logo: "themes/yellow-swan/img/eventioz.svg",
       //   url: "http://eventioz.com.br/"
       // },
-      // {
-      //   name: "Editora Novatec",
-      //   logo: "themes/yellow-swan/img/novatec.jpg",
-      //   url: "http://www.novatec.com.br/"
-      // },
+      {
+        name: "Editora Novatec",
+        logo: "themes/yellow-swan/img/novatec.jpg",
+        url: "http://www.novatec.com.br/"
+      },
       // {
       //   name: "Caelum",
       //   logo: "themes/yellow-swan/img/caelum-logo.jpg",
