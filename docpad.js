@@ -207,26 +207,43 @@ module.exports = {
 
     // The entire schedule
     schedule: [
-      // {
-      //   time: "08:00",
-      //   slots: [
-      //     {
-      //       name: "Credenciamento / café da manhã",
-      //       description: '',
-      //     }
-      //   ]
-      // },
-      // {
-      //   time: "08:40",
-      //   slots: [
-      //     {
-      //       name: "Abertura oficial",
-      //       description: '',
-      //     }
-      //   ]
-      // },
       {
-        time: "a definir",
+        time: "08:00",
+        slots: [
+          {
+            name: "Credenciamento / café da manhã",
+            description: '',
+          }
+        ]
+      },
+      {
+        time: "08:40",
+        slots: [
+          {
+            name: "Abertura oficial",
+            description: '',
+          }
+        ]
+      },
+      {
+        time: "09:00",
+        slots: [
+          {
+            name: "Concorrência (e Elixir): o que isso muda pra você?",
+            description: 'Muito se fala sobre novas linguagens de programação. Quero falar sobre concorrência, que considero o grande próximo desafio que desenvolvedores web terão que lidar. Vou comentar sobre outros modelos de concorrência (inclusive sobre Python e Ruby) e mostrar onde esses modelos pecam. E vou mostrar como Elixir e Erlang estão muito bem posicionados para resolver esse problema com seus primitivos.',
+            tags: ['Red'],
+            speaker: 'George Guimarães'
+          },
+          {
+            name: "Mas que bagunça é essa, JavaScript?!",
+            description: 'Com o surgimento de mais e mais bibliotecas, ferramentas e frameworks para JavaScript tudo parece estar uma bagunça. Esta palestra visa mostrar que isso não é nada mais do que uma fase de transição de crescimento da comunidade JavaScript, além mostrar o que é o que, tipos de ferramentas, e como escolher qual delas usar em seu projeto.',
+            tags: ['Red'],
+            speaker: 'Talysson de Oliveira Cassiano'
+          },
+        ]
+      },
+      {
+        time: "10:00",
         slots: [
           {
             name: "Action Cable em ação",
@@ -235,67 +252,42 @@ module.exports = {
             speaker: 'Guilherme Carreiro'
           },
           {
-            name: "Tornado/Python como backend para aplicações com alta carga de requisições",
-            description: 'Python é uma das linguagens de programação mais usados no mundo em geral e para web em específico. Tornado é um servidor web não bloqueante feito em Python originalmente desenvolvido pela FriendFeed (comprada pelo Facebook). No Terra utilizamos estas tecnologias nos nossos sistemas de backend para atender uma carga enorme de requisições e para personalizar conteúdo. Nesta palestra vou apresentar um use case sobre um dos componentes na nossa arquitetura de entrega – um processador de SSIs inteligente, rápido e modular, feito em Tornado/Python – o “Montador”.',
-            tags: ['Red'],
-            speaker: 'Roi Avidan'
+            name: "Prevendo futuro com machine learning",
+            description: 'O que você vai fazer amanhã? E nos próximos meses? Para onde vai, o que vai comprar... Você pode até não saber, mas com machine learning é possível prever suas ações, gostos e comportamentos. Estamos saindo da era da busca para era da recomendação, onde é possível identificar o que você quer antes mesmo de você pensar sobre isso. Venha descobrir como machine learning funciona, e como ele consegue fazer isso.',
+            tags: ['Black'],
+            speaker: 'Emilio Simoni'
           },
+          
         ]
       },
       {
-        time: "a definir",
+        time: "11:00",
         slots: [
-          {
-            name: "Estratégias de manipulação do DOM",
-            description: 'React, Angular 2, Ember 2... O que esses frameworks têm em comum? Todos estão utilizando novas técnicas de manipulação do DOM da forma mais performática possível. Vamos fazer um overview dos algoritmos usados em cada um desses frameworks e conhecer o que há de novo e mais veloz.',
-            tags: ['Black'],
-            speaker: 'Eduardo Matos'
-          },
           {
             name: "Ruby on Background",
             description: 'No ecossistema Ruby, há várias gems, técnicas e padrões que podem ser utilizados para se fazer processamento em background. Nesta palestra, cobriremos desde cenários mais simples até cenários mais complexos (por exemplo, como abusar de código concorrente mesmo no Ruby MRI). O foco será Ruby on Rails no Heroku com Sidekiq, no entanto haverá conteúdo útil para qualquer desenvolvedor Ruby.',
             tags: ['Black'],
             speaker: 'Alex Braha Stoll'
           },
-          
+          {
+            name: "O Último Transpiler Que Você Irá Precisar",
+            description: 'A era dos transpilers renovou toda a comunidade JavaScript. A modernização da linguagem instigou a criação de ferramentas de desenvolvimento. Floresceu novas abstrações para assíncrona e imutabilidade. Mas infelizmente também criou uma bagunça. E se pudéssemos unir tudo isso numa linguagem expressiva aliada ao Estado da Arte de minificadores e otimizadores de JavaScript? Apresento-lhes ClojureScript.',
+            tags: ['Red'],
+            speaker: 'Andrew Rosa'
+          }
         ]
       },
       {
-        time: "a definir",
+        time: "12:00",
         slots: [
           {
-            name: "Prevendo futuro com machine learning",
-            description: 'O que você vai fazer amanhã? E nos próximos meses? Para onde vai, o que vai comprar... Você pode até não saber, mas com machine learning é possível prever suas ações, gostos e comportamentos. Estamos saindo da era da busca para era da recomendação, onde é possível identificar o que você quer antes mesmo de você pensar sobre isso. Venha descobrir como machine learning funciona, e como ele consegue fazer isso.',
-            tags: ['Black'],
-            speaker: 'Emilio Simoni'
-          },
-          {
-            name: "Rails em 2016, usar ou não usar? Eis a questão.",
-            description: 'Nos últimos anos muito se vem falando do futuro do Rails, principalmente devido a forte adoção do Node e SPAs. O objetivo da talk é apresentar alguns fatos ao redor do assunto, junto com opiniões da comunidade e um case prático com Rails 5, para que a pessoa possa sair da palestra com mais bases pra responder a perguntar: Rails em 2016, usar ou não usar?',
-            tags: ['Red'],
-            speaker: 'Fabrício Ferrari de Campos'
-          },
+            name: "Almoço",
+            description: '',
+          }
         ]
       },
       {
-        time: "a definir",
-        slots: [
-          {
-            name: "Testando sua aplicação web com py.test e Selenium",
-            description: 'Escrever testes automatizados para seu código é essencial para a criação de aplicações de qualidade. A palestra apresentará, na prática, como escrever testes unitários e funcionais para um simples e-commerce usando py.test e Selenium.',
-            tags: ['Red'],
-            speaker: 'Luiz Antonio de Menezes Filho'
-          },
-          {
-            name: "Design de aplicações concorrentes: uma abordagem comparativa",
-            description: 'Nessa palestra vamos explorar abordagens para o design de aplicações concorrentes, avaliando performance, testabilidade e "compreensibilidade". Em particular, vamos comparar o design de uma aplicação exemplo em Ruby e Elixir.',
-            tags: ['Red'],
-            speaker: 'Renan Ranelli'
-          },
-        ]
-      },
-      {
-        time: "a definir",
+        time: "13:30",
         slots: [
           {
             name: "Concurrent Ruby",
@@ -304,181 +296,65 @@ module.exports = {
             speaker: 'Oscar Esgalha'
           },
           {
-            name: "O Último Transpiler Que Você Irá Precisar",
-            description: 'A era dos transpilers renovou toda a comunidade JavaScript. A modernização da linguagem instigou a criação de ferramentas de desenvolvimento. Floresceu novas abstrações para assíncrona e imutabilidade. Mas infelizmente também criou uma bagunça. E se pudéssemos unir tudo isso numa linguagem expressiva aliada ao Estado da Arte de minificadores e otimizadores de JavaScript? Apresento-lhes ClojureScript.',
+            name: "Testando sua aplicação web com py.test e Selenium",
+            description: 'Escrever testes automatizados para seu código é essencial para a criação de aplicações de qualidade. A palestra apresentará, na prática, como escrever testes unitários e funcionais para um simples e-commerce usando py.test e Selenium.',
             tags: ['Red'],
-            speaker: 'Andrew Rosa'
+            speaker: 'Luiz Antonio de Menezes Filho'
           },
         ]
       },
       {
-        time: "a definir",
+        time: "14:30",
         slots: [
           {
-            name: "Mas que bagunça é essa, JavaScript?!",
-            description: 'Com o surgimento de mais e mais bibliotecas, ferramentas e frameworks para JavaScript tudo parece estar uma bagunça. Esta palestra visa mostrar que isso não é nada mais do que uma fase de transição de crescimento da comunidade JavaScript, além mostrar o que é o que, tipos de ferramentas, e como escolher qual delas usar em seu projeto.',
+            name: "Rails em 2016, usar ou não usar? Eis a questão.",
+            description: 'Nos últimos anos muito se vem falando do futuro do Rails, principalmente devido a forte adoção do Node e SPAs. O objetivo da talk é apresentar alguns fatos ao redor do assunto, junto com opiniões da comunidade e um case prático com Rails 5, para que a pessoa possa sair da palestra com mais bases pra responder a perguntar: Rails em 2016, usar ou não usar?',
             tags: ['Red'],
-            speaker: 'Talysson de Oliveira Cassiano'
+            speaker: 'Fabrício Ferrari de Campos'
           },
           {
-            name: "Concorrência (e Elixir): o que isso muda pra você?",
-            description: 'Muito se fala sobre novas linguagens de programação. Quero falar sobre concorrência, que considero o grande próximo desafio que desenvolvedores web terão que lidar. Vou comentar sobre outros modelos de concorrência (inclusive sobre Python e Ruby) e mostrar onde esses modelos pecam. E vou mostrar como Elixir e Erlang estão muito bem posicionados para resolver esse problema com seus primitivos.',
-            tags: ['Red'],
-            speaker: 'George Guimarães'
+            name: "Estratégias de manipulação do DOM",
+            description: 'React, Angular 2, Ember 2... O que esses frameworks têm em comum? Todos estão utilizando novas técnicas de manipulação do DOM da forma mais performática possível. Vamos fazer um overview dos algoritmos usados em cada um desses frameworks e conhecer o que há de novo e mais veloz.',
+            tags: ['Black'],
+            speaker: 'Eduardo Matos'
           },
         ]
       },
       {
-        time: "a definir",
-        slots: [
+        time: "15:30",
+        slots: [    
           {
-           
-          },
-          {
-            
-          },
+            name: "Coffee-break",
+            description: '',
+          },                                                                                  
         ]
       },
-      // {
-      //   time: "10:00",
-      //   slots: [
-      //     {
-      //       name: "Ruby Além dos Trilhos",
-      //       description: 'O Rails ao longo dos últimos anos se tornou uma plataforma bastante sólida e respeitada. E boa parte desse sucesso é atribuido a uma comunidade inovadora, vibrante e bem "opinionada". Como consequência, hoje temos um vasto leque de bibliotecas, padrões de projeto, convenções e boas práticas à nossa mão. Porém, quando não somos criteriosos, todos esses recursos podem facilmente trazer uma grande dor-de-cabeça: o inferno da manutenção. Complexidade desnecessária, alto acoplamento, indireção, todos esses fatores acabam nos atrapalhando quando estamos evoluindo nosso software. Nesta palestra visitaremos alguns exemplos reais desses problemas e aprenderemos como enxergar além para evitá-los, trazendo de volta a tranquilidade ao nosso dia-a-dia de desenvolvimento.',
-      //       tags: ['Red'],
-      //       speaker: 'Rafael França',
-      //       slides: 'https://speakerdeck.com/rafaelfranca/ruby-alem-dos-trilhos'
-      //     },
-      //     {
-      //       name: "Python e a Invasão dos Objetos Inteligentes",
-      //       description: 'A linguagem Python oferece vários mecanismos para personalizar a criação de objetos, bem como o acesso a seus atributos. Esta apresentação mostra exemplos ao vivo de alguns dos principais meios que o Python dispõe para acrescentar capacidades à hierarquias de classes - permitindo a criação de mapeadores objeto-relacionais, introspectar bibliotecas e objetos nativos mapeados para Python, permitir anotações e desenvolvimento "orientado a aspectos", computação "lazy" e matemática simbólica dentre outras funcionalidades. O trabalho passa pela demonstração e explicação dos "decorators" em Python, como funcionam as "properties", e o mecanismo utilizado pela linguagem para o uso de métodos de objetos: os "descriptors". Os objetivos da palestra são: esclarecer como os principais frameworks, ORMs, e bibliotecas em Python podem fazer suas  "mágicas", aparentemente  mudando o comportamento da linguagem;  e dar idéias de como se implementar técnicas semelhantes em sistemas próprios.',
-      //       tags: ['Black'],
-      //       speaker: 'João S. O. Bueno',
-      //       slides: 'https://github.com/jsbueno/intelligent_objects/'
-      //     }       
-      //   ]
-      // },
-      // {
-      //   time: "11:00",
-      //   slots: [
-      //     {
-      //       name: "Desbravando Web Components",
-      //       description: 'Descubra como esse conceito formado por cinco novas especificações (Templates, Decorators, Shadow DOM, Custom Elements, Imports) irá revolucionar o modo como desenvolvemos e interagimos na web. Com ferramentas como Polymer e X-Tag, podemos começar a tirar proveito desta nova tecnologia hoje. Vamos dar uma olhada em alguns dos elementos surpreendentes que já estão sendo produzidos, e explorar como você pode começar a aproveitar-los em seus próprios projetos.',
-      //       tags: ['Black'],
-      //       speaker: 'Mateus Ortiz',
-      //       slides: 'https://speakerdeck.com/mateusortiz/desbravando-web-components'
-      //     },
-      //     {
-      //       name: "Tunando seu código Ruby",
-      //       description: 'Você acha que não tem problemas de performance na sua aplicação? Nessa talk vou mostrar alguns métodos de benchmark/profilling para você descobrir como tunar a sua aplicação Ruby/Rails. Alem de mostrar códigos que utilizamos no dia-dia que podem comprometer a performance da sua aplicação.',
-      //       tags: ['Black'],
-      //       speaker: 'André Luis Anastácio',
-      //       slides: 'https://speakerdeck.com/andreanastacio/tunando-o-seu-codigo-ruby'
-      //     },
-      //   ]
-      // },
-      // {
-      //   time: "12:00",
-      //   slots: [
-      //     {
-      //       name: "Almoço",
-      //       description: '',
-      //     }
-      //   ]
-      // },
-      // {
-      //   time: "13:30",
-      //   slots: [  
-      //     {
-      //       name: "A evolução de uma arquitetura distribuída",
-      //       description: 'Quando um produto cresce, um dos maiores desafios é como evoluir a arquitetura de maneira sustentável. Nesta palestra, será apresentado como a plataforma criada para o Globo.tv cresceu e evoluiu com o projeto Globosat Play. Entre os desafios, como permitir que mais de um time trabalhe na mesma plataforma, como compartilhar componentes e como atualizar um projeto sem quebrar o outro.',
-      //       tags: ['Black'],
-      //       speaker: 'Guilherme Garnier',
-      //       slides: 'http://ggarnier.github.io/evolucao-arquitetura'
-      //     },    
-      //     {                                                                                                                                                                                                                                                                                                                                                                           
-      //       name: "Programando a Felicidade",
-      //       description: 'Bate papo sobre envolvimento com a comunidade Python e como isso impactou minha vida de maneiras inesperadas, me levando a uma experiência de trabalhar apenas 2 dias por semana no último ano e meio, viajar para 5 estados do Brasil e estar com passagem marcada para conferência no Canadá. Afinal, é possível isso sem ser rico? Apareça e contribua com a discussão ;)',
-      //       tags: ['Red'],
-      //       speaker: 'Renzo Nuccitelli',
-      //       slides: 'https://drive.google.com/file/d/0B2FeB263eKwkQVNYWDhEdF9Eclk/view?usp=sharing'
-      //     }
-      //   ]
-      // },
-      // {
-      //   time: "14:30",
-      //   slots: [    
-      //     {
-      //       name: "Novas linguagens: o que vem depois do Ruby",
-      //       description: 'Mesmo sendo um Rubista não significa que não estamos prestando atenção às novas ondas de linguagens. Nos últimos anos vimos um crescimento no nascimento de novas linguagens, desde Groovy, Scala, Clojure, GoLang, Swift, Rust, Elixir, isso sem contar o renascimento do Javascript. De onde vem essas linguagens? Por que elas existem? Quais devemos prestar atenção? É impossível responder satisfatoriamente a todas essa perguntas, mas vamos tentar pelo menos trazer alguma perspectiva.',
-      //       tags: ['Black'],
-      //       speaker: 'Fabio Akita',
-      //       slides: 'http://www.slideshare.net/akitaonrails/languagesmaplatestreducefuturesortfirst-rupy-campinas-2015'
-      //     },                                                                                  
-      //     {
-      //       name: "Como aumentar o desempenho de sua aplicação com Python",
-      //       description: 'Esta palestra irá abordar técnicas para identificar problemas e utilizar melhor o hardware que temos hoje utilizando Python bem como mostrar o que temos disponível atualmente auxiliando quem busca maior desempenho em sua aplicação.',
-      //       tags: ['Black'],
-      //       speaker: 'Leandro Zanotto',
-      //       slides: 'http://www.slideshare.net/leandronz/palestra-hpc-python'
-      //     }
-      //   ]
-      // },
-      // {
-      //   time: "15:30",
-      //   slots: [    
-      //     {
-      //       name: "Coffee-break",
-      //       description: '',
-      //     },                                                                                  
-      //   ]
-      // },
-      // {
-      //   time: "16:00",
-      //   slots: [                                                                                      
-      //     {
-      //       name: "Meteoro de pegasuuus! Desenvolvendo aplicações com Meteor.js",
-      //       description: 'O que é esse framework que o pessoal anda falando por ai? É node mesmo ou bruxaria realtime? Nessa palestra vou explicar como funciona o Meteor com sua dinâmica própria e "inovadora", ensinar como criar uma aplicação, seus prós e contras e tirar dúvidas',
-      //       tags: ['Red'],
-      //       speaker: 'Julio Marins',
-      //       slides: 'http://www.slideshare.net/JulioAntonioMendonad/palestra-meteor'
-      //     },
-      //     {
-      //       name: "Girando Pratos: Concorrência com Futures em Python",
-      //       description: 'Novidades como o módulo `concurrent.futures`, delegação de co-rotinas com `yield from` e o módulo `asyncio` representam um capítulo novo na evolução de Python, e são as melhores razões para migrar para Python 3. Esta palestra mostrará como essas ferramentas tornam a programação concorrente acessível até mesmo para programadores casuais, com aumentos dramáticos de desempenho em clientes e servidores na rede.',
-      //       tags: ['Black'],
-      //       speaker: 'Luciano Ramalho',
-      //       slides: 'https://speakerdeck.com/ramalho/girando-pratos-concorrencia-moderna-em-python'
-      //     }
-      //   ]
-      // },
-      // {
-      //   time: "17:00",
-      //   slots: [  
-      //     {
-      //       name: "Usando Ruby em (quase) qualquer lugar",
-      //       description: 'Ano passado foi lançada a primeira versão estável do mruby, um interpretador mais leve e embedável da linguagem de programação Ruby. No entanto, ainda é difícil encontrar tutoriais mais completos ou exemplos bem documentados, sobre como de fato utilizá-lo. O objetivo desta palestra, que será bem prática, é ensinar como criar extensões (mrbgems) e demonstrar uma aplicação completa que usa Ruby sem que a máquina do usuário precise ter um interpretador instalado.',
-      //       tags: ['Red'],
-      //       speaker: 'Oscar Esgalha',
-      //       slides: 'https://speakerdeck.com/oesgalha/usando-ruby-em-quase-qualquer-lugar'
-      //     },
-      //     {
-      //       name: "React e Flux: uma nova abordagem pra aplicações de alto desempenho",
-      //       description: 'React é uma biblioteca JavaScript para criação de interfaces de alto desempenho baseadas em componentes. Flux é uma arquitetura para desenvolvimento de aplicações que complementa o React. O objetivo dessa palestra é apresentar as tecnologias de forma prática e mostrar como elas podem ser empregadas no seu próximo projeto.',
-      //       tags: ['Red'],
-      //       speaker: 'Cássio Zen'
-      //     }
-      //   ]
-      // },
-      // {
-      //   time: "18:00",
-      //   slots: [  
-      //     {
-      //       name: 'Encerramento oficial',
-      //       description: '',
-      //     },
-      //   ]
-      // }
+      {
+        time: "16:00",
+        slots: [
+          {
+            name: "Design de aplicações concorrentes: uma abordagem comparativa",
+            description: 'Nessa palestra vamos explorar abordagens para o design de aplicações concorrentes, avaliando performance, testabilidade e "compreensibilidade". Em particular, vamos comparar o design de uma aplicação exemplo em Ruby e Elixir.',
+            tags: ['Red'],
+            speaker: 'Renan Ranelli'
+          },
+          {
+            name: "Tornado/Python como backend para aplicações com alta carga de requisições",
+            description: 'Python é uma das linguagens de programação mais usados no mundo em geral e para web em específico. Tornado é um servidor web não bloqueante feito em Python originalmente desenvolvido pela FriendFeed (comprada pelo Facebook). No Terra utilizamos estas tecnologias nos nossos sistemas de backend para atender uma carga enorme de requisições e para personalizar conteúdo. Nesta palestra vou apresentar um use case sobre um dos componentes na nossa arquitetura de entrega – um processador de SSIs inteligente, rápido e modular, feito em Tornado/Python – o “Montador”.',
+            tags: ['Red'],
+            speaker: 'Roi Avidan'
+          },
+        ]
+      },    
+      {
+        time: "17:00",
+        slots: [  
+          {
+            name: 'Encerramento oficial',
+            description: '',
+          },
+        ]
+      }
     ],
 
     gold_sponsors: [
