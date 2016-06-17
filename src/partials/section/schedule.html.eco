@@ -34,7 +34,7 @@
                           </strong>
                           <% if s.tags: %>
                             <% for tag in s.tags: %>
-                              <!-- <span class="tags <%= tag.toLowerCase() %>"><%= tag %></span> -->
+                                <span class="tags <%= tag.toLowerCase() %>"><%= tag %></span>
                             <% end %>
                           <% end %>  
                         </p>

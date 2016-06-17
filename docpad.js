@@ -237,7 +237,7 @@ module.exports = {
           {
             name: "Mas que bagunça é essa, JavaScript?!",
             description: 'Com o surgimento de mais e mais bibliotecas, ferramentas e frameworks para JavaScript tudo parece estar uma bagunça. Esta palestra visa mostrar que isso não é nada mais do que uma fase de transição de crescimento da comunidade JavaScript, além mostrar o que é o que, tipos de ferramentas, e como escolher qual delas usar em seu projeto.',
-            tags: ['Red'],
+            tags: ['Black'],
             speaker: 'Talysson de Oliveira Cassiano'
           },
         ]
@@ -248,7 +248,7 @@ module.exports = {
           {
             name: "Action Cable em ação",
             description: 'Entenda o Action Cable, a API que mais se destaca dentre as novidades do Rails 5, trazendo um conjunto novo de abstrações ao framework e uma série novidades que impactarão diretamente na comunidade Ruby em 2016.',
-            tags: ['Black'],
+            tags: ['Red'],
             speaker: 'Guilherme Carreiro'
           },
           {
@@ -266,13 +266,13 @@ module.exports = {
           {
             name: "Ruby on Background",
             description: 'No ecossistema Ruby, há várias gems, técnicas e padrões que podem ser utilizados para se fazer processamento em background. Nesta palestra, cobriremos desde cenários mais simples até cenários mais complexos (por exemplo, como abusar de código concorrente mesmo no Ruby MRI). O foco será Ruby on Rails no Heroku com Sidekiq, no entanto haverá conteúdo útil para qualquer desenvolvedor Ruby.',
-            tags: ['Black'],
+            tags: ['Red'],
             speaker: 'Alex Braha Stoll'
           },
           {
             name: "O Último Transpiler Que Você Irá Precisar",
             description: 'A era dos transpilers renovou toda a comunidade JavaScript. A modernização da linguagem instigou a criação de ferramentas de desenvolvimento. Floresceu novas abstrações para assíncrona e imutabilidade. Mas infelizmente também criou uma bagunça. E se pudéssemos unir tudo isso numa linguagem expressiva aliada ao Estado da Arte de minificadores e otimizadores de JavaScript? Apresento-lhes ClojureScript.',
-            tags: ['Red'],
+            tags: ['Black'],
             speaker: 'Andrew Rosa'
           }
         ]
@@ -298,7 +298,7 @@ module.exports = {
           {
             name: "Testando sua aplicação web com py.test e Selenium",
             description: 'Escrever testes automatizados para seu código é essencial para a criação de aplicações de qualidade. A palestra apresentará, na prática, como escrever testes unitários e funcionais para um simples e-commerce usando py.test e Selenium.',
-            tags: ['Red'],
+            tags: ['Black'],
             speaker: 'Luiz Antonio de Menezes Filho'
           },
         ]
@@ -341,7 +341,7 @@ module.exports = {
           {
             name: "Tornado/Python como backend para aplicações com alta carga de requisições",
             description: 'Python é uma das linguagens de programação mais usados no mundo em geral e para web em específico. Tornado é um servidor web não bloqueante feito em Python originalmente desenvolvido pela FriendFeed (comprada pelo Facebook). No Terra utilizamos estas tecnologias nos nossos sistemas de backend para atender uma carga enorme de requisições e para personalizar conteúdo. Nesta palestra vou apresentar um use case sobre um dos componentes na nossa arquitetura de entrega – um processador de SSIs inteligente, rápido e modular, feito em Tornado/Python – o “Montador”.',
-            tags: ['Red'],
+            tags: ['Black'],
             speaker: 'Roi Avidan'
           },
         ]
