@@ -148,61 +148,6 @@ module.exports = {
         description: 'Desenvolvedor front-end na Codeminer42 e graduado em Ciência da Computação, tem grande interesse em NodeJS, ReactJS e arquiteturas de sistemas web.',
         photo: 'themes/yellow-swan/img/talysson.jpg'
       },
-      // {
-      //   name: 'Fabio Akita',
-      //   description: 'Co-fundador da Codeminer 42, empresa de desenvolvimento de software principalmente para startups. Desde 2008 é o criador e organizador do Rubyconf Brasil, uma das maiores conferências de tecnologia da América Latina. Tem experiência de 20 anos no mercado de software, tendo passado pelo mercado de grandes agências, consultoria SAP corporativo e pelo primeiro boom de startups em 2000.',
-      //   photo: 'themes/yellow-swan/img/fabio-akita.jpg'
-      // },
-      // {
-      //   name: 'Guilherme Garnier',
-      //   description: 'Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com. Mantém seu blog em http://blog.guilhermegarnier.com',
-      //   photo: 'themes/yellow-swan/img/guilherme-garnier.jpg'
-      // },
-      // {
-      //   name: 'João Moura',
-      //   description: 'Co-Fouder da Gioco Pro, entusiasta das novas tecnologias, Startups e Open Source. Escritor para o SitePoint e palestrante de conferências internacionais e nacionais.',
-      //   photo: 'themes/yellow-swan/img/joao.jpg'
-      // },
-      // {
-      //   name: 'João S. O. Bueno',
-      //   description: 'Consultor e desenvolvedor em Software Livre desde 2001. Trabalha com a linguagem de programação Python, e é contribuidor do projeto GNU Image Manipulation Program (GIMP) . Realizou projetos com várias empresas, ressaltando-se colaboração no desenvolvimento de portais web como o do Sebrae Nacional, Brasil.gov.br e da revista CartaCapital. Foi membro diretor da Associação Python Brasil de 2009 a 2013. Atualmente é desenvolvedor Python na Titans Group.',
-      //   photo: 'themes/yellow-swan/img/joao-bueno.jpg'
-      // },
-      // {
-      //   name: 'Julio Marins',
-      //   description: 'Desenvolvedor, violinista e nômade digital. Formado no CEFET/RJ, é frequentador do Coding Dojo Rio e organizador de dojos apoiando a comunidade compartilhando código e conhecimento.',
-      //   photo: 'themes/yellow-swan/img/julio-marins.jpg'
-      // },
-      // {
-      //   name: 'Leandro Zanotto',
-      //   description: "HPC System Engineer no Centro de Engenharia e Ciências Computacionais na Unicamp, com otimização de sistemas de dinâmica molecular e bioinformatica, utilizando tecnologias multicore e manycore.",
-      //   photo: 'themes/yellow-swan/img/leandro.jpg'
-      // },
-      // {
-      //   name: 'Luciano Ramalho',
-      //   description: "Ramalho é autor do livro Fluent Python (O'Reilly, 2014) e sócio/professor em Python.pro.br, oferecendo cursos in-company e também online. Foi diretor técnico do Brasil Online, primeiro portal da Abril na Web, lançado uma semana antes do UOL. Depois liderou times para os sites IDG Now, BOL, UOL, AOL Brasil e outros, usando Python desde 1998. Palestrante em eventos internacionais como PyCon US, OSCON ajudou a criar a Associação Python Brasil e foi seu presidente. É membro da Python Software Foundation e fundador do Garoa Hacker Clube, o primeiro hackerspace do Brasil.",
-      //   photo: 'themes/yellow-swan/img/luciano.jpg'
-      // },
-      // {
-      //   name: 'Mateus Ortiz',
-      //   description: 'Criador do Web Components the Right Way entre outros projetos. Front-end Developer, já trabalhou como Front-end na Megaranto.com e em outra agencia. Paranaense, gosta muito de open source e na maioria do tempo contribui.',
-      //   photo: 'themes/yellow-swan/img/mateus.jpg'
-      // },
-      // {
-      //   name: 'Oscar Esgalha',
-      //   description: 'Hacker por hobby e profissão. Brinca de programar há 8 anos e há mais de 4 é pago para isso. Formou-se em Ciência da Computação pela Unicamp no fim do ano passado. Gosta de tecnologias novas, hackathons, FOSS, startups e recentemente adquiriu gosto por conferências como esta.',
-      //   photo: 'themes/yellow-swan/img/oscar.jpg'
-      // },
-      // {
-      //   name: 'Rafael França',
-      //   description: 'Desenvolvedor de Software e membro do Rails Core Team.',
-      //   photo: 'themes/yellow-swan/img/rafael.jpg'
-      // },
-      // {
-      //   name: 'Renzo Nuccitelli',
-      //   description: 'Engenheiro de Computação formado pelo ITA. Especialista em programação web no Google App Engine, usa Python desde 2009. Foi Diretor de Tecnologia na startup de educação QMagico, Apaixonado por dar aulas, é professor da Fatec onde ministra as matérias de Orientação a Objetos e "Applicações para Internet Utilizando Banco de Dados". Já palestrou em eventos como Google Developer Bus, DevFest, Rupy e Python Brasil. Escreve sobre tecnologia em seu blog.renzo.pro.br e no IMasters, onde é colunista.',
-      //   photo: 'themes/yellow-swan/img/renzo.jpg'
-      // },
     ],
 
     // The entire schedule
@@ -231,13 +176,12 @@ module.exports = {
           {
             name: "Concorrência (e Elixir): o que isso muda pra você?",
             description: 'Muito se fala sobre novas linguagens de programação. Quero falar sobre concorrência, que considero o grande próximo desafio que desenvolvedores web terão que lidar. Vou comentar sobre outros modelos de concorrência (inclusive sobre Python e Ruby) e mostrar onde esses modelos pecam. E vou mostrar como Elixir e Erlang estão muito bem posicionados para resolver esse problema com seus primitivos.',
-            tags: ['Red'],
+            video: "https://www.youtube.com/watch?v=MeCfWtMSWTE&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=1",
             speaker: 'George Guimarães'
           },
           {
             name: "Mas que bagunça é essa, JavaScript?!",
             description: 'Com o surgimento de mais e mais bibliotecas, ferramentas e frameworks para JavaScript tudo parece estar uma bagunça. Esta palestra visa mostrar que isso não é nada mais do que uma fase de transição de crescimento da comunidade JavaScript, além mostrar o que é o que, tipos de ferramentas, e como escolher qual delas usar em seu projeto.',
-            tags: ['Black'],
             speaker: 'Talysson de Oliveira Cassiano'
           },
         ]
@@ -248,13 +192,13 @@ module.exports = {
           {
             name: "Action Cable em ação",
             description: 'Entenda o Action Cable, a API que mais se destaca dentre as novidades do Rails 5, trazendo um conjunto novo de abstrações ao framework e uma série novidades que impactarão diretamente na comunidade Ruby em 2016.',
-            tags: ['Red'],
+            video: "https://www.youtube.com/watch?v=oI_ko7aAhvA&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=2",
             speaker: 'Guilherme Carreiro'
           },
           {
             name: "Prevendo futuro com machine learning",
             description: 'O que você vai fazer amanhã? E nos próximos meses? Para onde vai, o que vai comprar... Você pode até não saber, mas com machine learning é possível prever suas ações, gostos e comportamentos. Estamos saindo da era da busca para era da recomendação, onde é possível identificar o que você quer antes mesmo de você pensar sobre isso. Venha descobrir como machine learning funciona, e como ele consegue fazer isso.',
-            tags: ['Black'],
+            video: "https://www.youtube.com/watch?v=oHP0RyrL_nA&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=7",
             speaker: 'Emilio Simoni'
           },
           
@@ -266,13 +210,14 @@ module.exports = {
           {
             name: "Ruby on Background",
             description: 'No ecossistema Ruby, há várias gems, técnicas e padrões que podem ser utilizados para se fazer processamento em background. Nesta palestra, cobriremos desde cenários mais simples até cenários mais complexos (por exemplo, como abusar de código concorrente mesmo no Ruby MRI). O foco será Ruby on Rails no Heroku com Sidekiq, no entanto haverá conteúdo útil para qualquer desenvolvedor Ruby.',
-            tags: ['Red'],
+            video: "https://www.youtube.com/watch?v=5B6ucQGYBPc&index=5&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx",
             speaker: 'Alex Braha Stoll'
           },
           {
             name: "O Último Transpiler Que Você Irá Precisar",
             description: 'A era dos transpilers renovou toda a comunidade JavaScript. A modernização da linguagem instigou a criação de ferramentas de desenvolvimento. Floresceu novas abstrações para assíncrona e imutabilidade. Mas infelizmente também criou uma bagunça. E se pudéssemos unir tudo isso numa linguagem expressiva aliada ao Estado da Arte de minificadores e otimizadores de JavaScript? Apresento-lhes ClojureScript.',
-            tags: ['Black'],
+            video: "https://www.youtube.com/watch?v=fzTrD9Jim3g&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=8",
+            slides: "https://speakerdeck.com/andrewhr/o-ultimo-transpiler-que-voce-ira-precisar",
             speaker: 'Andrew Rosa'
           }
         ]
@@ -292,13 +237,14 @@ module.exports = {
           {
             name: "Concurrent Ruby",
             description: 'Concurrent Ruby é uma gem que traz diversas funcionalidades de concorrência inspiradas em outras linguagens e adaptadas para o estilo ruby. Ela será uma dependência do Rails 5 (ActiveSupport) e já se mostra popular na comunidade. Descubra através de exemplos como e quais os benefícios em usá-la.',
-            tags: ['Red'],
+            video: "https://www.youtube.com/watch?v=wARJ0EMSmso&index=3&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx",
             speaker: 'Oscar Esgalha'
           },
           {
             name: "Testando sua aplicação web com py.test e Selenium",
             description: 'Escrever testes automatizados para seu código é essencial para a criação de aplicações de qualidade. A palestra apresentará, na prática, como escrever testes unitários e funcionais para um simples e-commerce usando py.test e Selenium.',
-            tags: ['Black'],
+            video: "https://www.youtube.com/watch?v=k1EyIwr6RY0&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=6",
+            slides: "https://speakerdeck.com/luizmenezes/testando-aplicacoes-web-com-py-dot-test-e-selenium",
             speaker: 'Luiz Antonio de Menezes Filho'
           },
         ]
@@ -309,14 +255,16 @@ module.exports = {
           {
             name: "Rails em 2016, usar ou não usar? Eis a questão.",
             description: 'Nos últimos anos muito se vem falando do futuro do Rails, principalmente devido a forte adoção do Node e SPAs. O objetivo da talk é apresentar alguns fatos ao redor do assunto, junto com opiniões da comunidade e um case prático com Rails 5, para que a pessoa possa sair da palestra com mais bases pra responder a perguntar: Rails em 2016, usar ou não usar?',
-            tags: ['Red'],
+            video: "https://www.youtube.com/watch?v=ZJMu1C1pSj4&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=10",
+            slides: "https://speakerdeck.com/fabricioffc/rails-em-2016-usar-ou-nao-usar-eis-a-questao",
             speaker: 'Fabrício Ferrari de Campos'
           },
           {
             name: "Estratégias de manipulação do DOM",
             description: 'React, Angular 2, Ember 2... O que esses frameworks têm em comum? Todos estão utilizando novas técnicas de manipulação do DOM da forma mais performática possível. Vamos fazer um overview dos algoritmos usados em cada um desses frameworks e conhecer o que há de novo e mais veloz.',
-            tags: ['Black'],
-            speaker: 'Eduardo Matos'
+            speaker: 'Eduardo Matos',
+            slides: "https://speakerdeck.com/eduardojmatos/estrategias-de-manipulacao-de-dom",
+            video: "https://www.youtube.com/watch?v=tRubIJLIAPk&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=9"
           },
         ]
       },
@@ -335,13 +283,14 @@ module.exports = {
           {
             name: "Design de aplicações concorrentes: uma abordagem comparativa",
             description: 'Nessa palestra vamos explorar abordagens para o design de aplicações concorrentes, avaliando performance, testabilidade e "compreensibilidade". Em particular, vamos comparar o design de uma aplicação exemplo em Ruby e Elixir.',
-            tags: ['Red'],
+            video: "https://www.youtube.com/watch?v=fOjvpq7Yx0E&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=4",
+            slides: "https://speakerdeck.com/rranelli/rupy-campinas-2016-designing-concurrent-applications",
             speaker: 'Renan Ranelli'
           },
           {
             name: "Tornado/Python como backend para aplicações com alta carga de requisições",
             description: 'Python é uma das linguagens de programação mais usados no mundo em geral e para web em específico. Tornado é um servidor web não bloqueante feito em Python originalmente desenvolvido pela FriendFeed (comprada pelo Facebook). No Terra utilizamos estas tecnologias nos nossos sistemas de backend para atender uma carga enorme de requisições e para personalizar conteúdo. Nesta palestra vou apresentar um use case sobre um dos componentes na nossa arquitetura de entrega – um processador de SSIs inteligente, rápido e modular, feito em Tornado/Python – o “Montador”.',
-            tags: ['Black'],
+            video: "https://www.youtube.com/watch?v=8Gt2vHgp7As&list=PLM2OMbGXLeu96y_XTV0kelhwhcUshB5vx&index=11",
             speaker: 'Roi Avidan'
           },
         ]
